@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cadastro de Atividades das Ações</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Cadastro de Atividades das Ações</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td></td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>DBGERPROJETO</td></tr>
+      <tr><th>Tabela Básica: </th><td>TB_PROCESSOS</td></tr>
+      <tr><th>Provider: </th><td>CadastroAtividades</td></tr>
+      <tr><th>Index: </th><td>PK_TB_PROCESSOS</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>projeto</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(projeto))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Código do Projeto não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>itemProjeto</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(itemProjeto))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Item do Projeto não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>txtItemProcesso</td></tr>
+      <tr><th>Campo Relacionado: </th><td>itemProcesso</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(itemProcesso))}</td></tr>	
+      <tr><th>Mensagem: </th><td>itemProcesso não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>nomeProcesso</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(nomeProcesso))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Processo não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox7</td></tr>
+      <tr><th>Campo Relacionado: </th><td>DiasPrevistos</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox8</td></tr>
+      <tr><th>Campo Relacionado: </th><td>DiasRealizados</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>cmbSiglaCoordenacao</td></tr>
+      <tr><th>Campo Relacionado: </th><td>siglaCoordenacao</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(siglaCoordenacao))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Coordenação não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>cmbSiglaSetorial</td></tr>
+      <tr><th>Campo Relacionado: </th><td>siglaSetorial</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>nomeSobrenome</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(nomeSobrenome))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Responsável não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>responsavelSubstituto</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>txtSituacao</td></tr>
+      <tr><th>Campo Relacionado: </th><td>situacao</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>txtInicioPrevisto</td></tr>
+      <tr><th>Campo Relacionado: </th><td>inicioPrevisto</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>txtTerminoPrevisto</td></tr>
+      <tr><th>Campo Relacionado: </th><td>terminoPrevisto</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>txtInicioRealizado</td></tr>
+      <tr><th>Campo Relacionado: </th><td>inicioRealizado</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>txtTerminoRealizado</td></tr>
+      <tr><th>Campo Relacionado: </th><td>terminoRealizado</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox12</td></tr>
+      <tr><th>Campo Relacionado: </th><td>percentualExecutado</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>dataCadastro</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(dataCadastro))}{ServerValidation =(CheckNotEmpty(dataCadastro))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Data do Cadastro não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox11</td></tr>
+      <tr><th>Campo Relacionado: </th><td>usuarioCadastro</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(usuarioCadastro))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Cadastrado por não pode ser vazio!</td></tr>
+	</table>
+	</br>
+</div>
+
+	<div class="properties">
+		<h2>Tabela Auxiliar:<span>AUX_CadastroAtividades_TB_ITENS_PROJETO</span></h2>
+		<table>
+			<tr><th>Banco</th><td>DBGERPROJETO</td></tr>
+			<tr><th>Tabela Relacionada</th><td>TB_ITENS_PROJETO</td></tr>
+			<tr><th>Forçar Relacionamento</th><td>True</td></tr>   
+			<tr><th>Indice</th><td>PK_TB_ITENS_PROJETO</td></tr>
+			<tr><th>Menssagem</th><td></td></tr>
+		</table>
+		<h3>Campos Relacionados</h3>
+		<table>
+		  <tr><th>Tabela base: </th><td>projeto</td></tr>	
+		  <tr><th>Tabela auxiliar: </th><td>=([AUX_TB_PROCESSOS].[projeto])</td></tr>
+		</table>
+		</br>
+		<table>
+		  <tr><th>Tabela base: </th><td>itemProjeto</td></tr>	
+		  <tr><th>Tabela auxiliar: </th><td>=([AUX_TB_PROCESSOS].[itemProjeto])</td></tr>
+		</table>
+		</br>
+		
+		
+	</div>
+</body>
+</html>

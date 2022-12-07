@@ -1,0 +1,1290 @@
+
+
+.c_Form1
+{
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+#Form1_body
+{
+	background-color: #FFFFFF;
+	height: 466px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	height: 466px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	left: 0px;
+	margin: 0 auto 0 auto;
+	min-width: 856px;
+	position: relative;
+	top: 0px;
+}
+
+.c_MainAjaxPanel
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+.c_Div1
+{
+	background-color: Transparent;
+	margin-left: 20px;
+	margin-right: 20px;
+	--mleft: 20px;
+	--mright: 20px;
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	right: 0px;
+	height: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #000000;
+	border-style: Solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_labModuleTitle
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: 700;
+	font-weight: 700;
+	margin-top: -12px;
+	--mleft: 5px;
+	position: absolute !important;
+	left: 5px;
+	top: 50%;
+	width: 234px;
+	height: 25px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Button4
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	margin-top: -12px;
+	--mright: 10px;
+	position: absolute !important;
+	top: 50%;
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button4:not(:hover), .c_Button4.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+	min-width: 25px;
+}
+
+.c_btnSalvar
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: Lighter;
+	--mright: 50px;
+	position: absolute !important;
+	top: 7px;
+	right: 50px;
+	width: 100px;
+	height: 25px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_btnSalvar:not(:hover), .c_btnSalvar.RadButton.rbButton.rbDisabled
+{
+	background-color: #179F4F;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button1
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: Lighter;
+	--mright: 160px;
+	position: absolute !important;
+	top: 7px;
+	right: 160px;
+	width: 100px;
+	height: 25px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button1:not(:hover), .c_Button1.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Div2
+{
+	background-color: Transparent;
+	margin-left: -406px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute;
+	left: 50%;
+	top: 72px;
+	width: 812px;
+	height: 260px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #C5C5C5;
+	border-style: Solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+}
+
+.c_RadTextBox2
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox2_wrapper
+{
+	position: absolute !important;
+	left: 100px;
+	top: 21px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 495px !important;
+}
+
+.c_Label2
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 101px;
+	top: 4px;
+	width: 104px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_ComboBox1
+{
+	position: absolute !important;
+	left: 464px;
+	top: 72px;
+	width: 130px;
+	width: 130px !important;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_SIM
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_NAO
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_Label3
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 464px;
+	top: 58px;
+	width: 104px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_ComboBox2
+{
+	position: absolute !important;
+	left: 8px;
+	top: 131px;
+	width: 187px;
+	width: 187px !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_GComboBoxItem24
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_GComboBoxItem25
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_Label4
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 8px;
+	top: 113px;
+	width: 129px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_RadTextBox4
+{
+	background-color: #D7F0D9 !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox4_wrapper
+{
+	position: absolute !important;
+	left: 214px;
+	top: 131px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 100px !important;
+}
+
+.c_Label7
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 214px;
+	top: 113px;
+	width: 97px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_RadTextBox5
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox5_wrapper
+{
+	position: absolute !important;
+	left: 333px;
+	top: 131px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 163px !important;
+}
+
+.c_Label8
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 333px;
+	top: 113px;
+	width: 123px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_RadTextBox1
+{
+	background-color: #D7F0D9 !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox1_wrapper
+{
+	position: absolute !important;
+	left: 8px;
+	top: 21px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 84px !important;
+}
+
+.c_Label1
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 8px;
+	top: 4px;
+	width: 65px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_txtInicioPrevisto
+{
+	position: absolute !important;
+	left: 8px;
+	top: 186px;
+	width: 134px;
+	height: 32px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_Label9
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 8px;
+	top: 167px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_txtTerminoPrevisto
+{
+	position: absolute !important;
+	left: 160px;
+	top: 186px;
+	width: 134px;
+	height: 32px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_Label10
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 160px;
+	top: 167px;
+	width: 122px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_txtDiasDeProjeto
+{
+	background-color: #D7F0D9 !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_txtDiasDeProjeto_wrapper
+{
+	position: absolute !important;
+	left: 305px;
+	top: 186px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 99px !important;
+}
+
+.c_Label11
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 305px;
+	top: 167px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_DatePicker4
+{
+	position: absolute !important;
+	left: 412px;
+	top: 186px;
+	width: 134px;
+	height: 32px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_Label12
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 412px;
+	top: 167px;
+	width: 129px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_ComboBox3
+{
+	position: absolute !important;
+	left: 606px;
+	top: 72px;
+	width: 181px;
+	width: 181px !important;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_GComboBoxItem1
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_GComboBoxItem2
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_GComboBoxItem3
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_Label13
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 606px;
+	top: 58px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_ComboBox4
+{
+	position: absolute !important;
+	left: 8px;
+	top: 72px;
+	width: 100px;
+	width: 100px !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_Label14
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 8px;
+	top: 58px;
+	width: 92px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Label15
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 119px;
+	top: 58px;
+	width: 160px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_ComboBox6
+{
+	position: absolute !important;
+	left: 288px;
+	top: 72px;
+	width: 163px;
+	width: 163px !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_Label16
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 288px;
+	top: 58px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_ComboBox7
+{
+	position: absolute !important;
+	left: 119px;
+	top: 72px;
+	width: 158px;
+	width: 158px !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_RadTextBox6
+{
+	background-color: #D7F0D9 !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox6_wrapper
+{
+	position: absolute !important;
+	left: 507px;
+	top: 131px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 196px !important;
+}
+
+.c_Label17
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 507px;
+	top: 113px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Label19
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 618px;
+	top: 2px;
+	width: 104px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_labError
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	font-weight: 300;
+	margin-left: 0px !important;
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute !important;
+	left: 0px;
+	top: 416px;
+	right: 0px;
+	height: 25px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #FF0000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+	word-wrap: normal;
+}
+
+.c_ComboBox8
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	position: absolute !important;
+	left: 605px;
+	top: 21px;
+	width: 177px;
+	width: 177px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	display: block;
+}
+
+.c_WSCadProjetos
+{
+	position: absolute !important;
+	left: 375px;
+	top: 61px;
+	width: 120px;
+	height: 45px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.RadWindow
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_Div3
+{
+	background-color: Transparent;
+	margin-left: 20px;
+	margin-right: 20px;
+	--mleft: 20px;
+	--mright: 20px;
+	position: absolute;
+	left: 0px;
+	top: 344px;
+	right: 0px;
+	height: 72px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #C5C5C5;
+	border-style: Solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_RadTextBox3
+{
+	background-color: #D7F0D9 !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox3_wrapper
+{
+	position: absolute !important;
+	left: 14px;
+	top: 21px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 161px !important;
+}
+
+.c_Label5
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 14px;
+	top: 4px;
+	width: 104px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_DatePicker1
+{
+	position: absolute !important;
+	left: 225px;
+	top: 21px;
+	width: 161px;
+	height: 32px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_Label6
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 225px;
+	top: 4px;
+	width: 132px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+/*		Hover style		*/
+
+
+.c_Button4:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+	min-width: 25px;
+}
+
+.c_Button4:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnSalvar:hover
+{
+	background-color: #179F4F !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnSalvar:hover
+{
+	background-color: #179F4F !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button1:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button1:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}

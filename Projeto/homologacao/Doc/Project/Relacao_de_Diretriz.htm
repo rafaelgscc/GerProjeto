@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Relação de Diretriz</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Relação de Diretriz</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_PARAMETRO</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>DBGERPROJETO</td></tr>
+      <tr><th>Tabela Básica: </th><td>TB_PROJETO</td></tr>
+      <tr><th>Provider: </th><td>Relacao_de_Diretriz</td></tr>
+      <tr><th>Index: </th><td>PK_TB_PROJETO</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+</div>
+
+	<div class="properties">
+		<h2>Tabela Auxiliar:<span>AUX_Relacao_de_Projetos_TB_ITENS_PROJETO</span></h2>
+		<table>
+			<tr><th>Banco</th><td>DBGERPROJETO</td></tr>
+			<tr><th>Tabela Relacionada</th><td>TB_ITENS_PROJETO</td></tr>
+			<tr><th>Forçar Relacionamento</th><td>True</td></tr>   
+			<tr><th>Indice</th><td>PK_TB_ITENS_PROJETO</td></tr>
+			<tr><th>Menssagem</th><td></td></tr>
+		</table>
+		<h3>Campos Relacionados</h3>
+		<table>
+		  <tr><th>Tabela base: </th><td>projeto</td></tr>	
+		  <tr><th>Tabela auxiliar: </th><td>=([AUX_TB_PROJETO].[codigo])</td></tr>
+		</table>
+		</br>
+		<table>
+		  <tr><th>Tabela base: </th><td>itemProjeto</td></tr>	
+		  <tr><th>Tabela auxiliar: </th><td></td></tr>
+		</table>
+		</br>
+		
+		
+	</div>
+</body>
+</html>

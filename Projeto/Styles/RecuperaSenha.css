@@ -1,0 +1,286 @@
+
+
+.c_Form1
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+#Form1_body
+{
+	background-color: Transparent;
+	height: 265px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	width: 500px;
+	height: 265px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	left: 0px;
+	margin: 0 0 0 0;
+	position: relative;
+	top: 0px;
+}
+
+.c_MainAjaxPanel
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+.c_Label1
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 47px;
+	top: 111px;
+	width: 58px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #C3D24A;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_txtLogin
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_txtLogin_wrapper
+{
+	position: absolute !important;
+	left: 114px;
+	top: 111px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 337px !important;
+}
+
+.c_Div1
+{
+	background-color: Transparent;
+	margin-right: 0px;
+	margin-top: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: Solid;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_Label2
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: Lighter;
+	font-weight: 300;
+	position: absolute !important;
+	left: 12px;
+	top: 9px;
+	width: 259px;
+	height: 28px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #C3D24A;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Button4
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	margin-top: -12px;
+	--mright: 10px;
+	position: absolute !important;
+	top: 50%;
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button4:not(:hover), .c_Button4.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+	min-width: 25px;
+}
+
+.c_btnRecuperar
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	position: absolute !important;
+	left: 334px;
+	top: 167px;
+	width: 115px;
+	height: 39px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 1px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_btnRecuperar:not(:hover), .c_btnRecuperar.RadButton.rbButton.rbDisabled
+{
+	background-color: #143645;
+	border-color: #FFFFFF;
+	color: #C3D24A !important;
+}
+
+.c_labError
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	font-weight: 300;
+	position: absolute !important;
+	left: 24px;
+	top: 220px;
+	width: 460px;
+	height: 25px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #FF0000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+/*		Hover style		*/
+
+
+.c_Button4:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+	min-width: 25px;
+}
+
+.c_Button4:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnRecuperar:hover
+{
+	background-color: #143645 !important;
+	border-color: #FFFFFF !important;
+	color: #C3D24A !important;
+}
+
+.c_btnRecuperar:hover
+{
+	background-color: #143645 !important;
+	border-color: #FFFFFF !important;
+	color: #C3D24A !important;
+}

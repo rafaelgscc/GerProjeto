@@ -1,0 +1,687 @@
+.GridAPPFinanceiro {
+	border: 1px solid #a4baa4;
+	background: transparent;
+	color: #222622;
+	font: 12px / 18px "Open sans",arial,sans-serif;
+             
+}
+
+.GridAPPFinanceiro tr:hover{
+    background:rgba(255,255,255,.1);
+}
+
+.GridAPPFinanceiro .rgMasterTable,.GridAPPFinanceiro .rgDetailTable,.GridAPPFinanceiro .rgGroupPanel table,.GridAPPFinanceiro .rgCommandRow table,.GridAPPFinanceiro .rgEditForm table,.GridAPPFinanceiro .rgPager table {
+	font: 12px / 18px "Open sans",arial,sans-serif;
+
+}
+
+.rgMasterTable {
+    border: 1px solid #7f8c8d;
+    border-radius: 2px;
+}
+.GridAPPFinanceiro .rgInput {
+	background-color: white;
+	border: 1px solid #CED7DC;
+
+}
+.GridToolTip_way {
+	font: 12px / 18px "Open sans",arial,sans-serif;
+        font-weight: bold;
+}
+.GridAPPFinanceiro .rgHeader first-child,.GridAPPFinanceiro th.rgResizeCol: first-child,.GridAPPFinanceiro .rgFilterRow>td: first-child,.GridAPPFinanceiro .rgRow>td: first-child,.GridAPPFinanceiro .rgAltRow>td: first-child {
+	border-left-width: 0;
+	padding-left: 8px;
+}
+.GridAPPFinanceiro .rgSave,.GridAPPFinanceiro .rgAdd,.GridAPPFinanceiro .rgRefresh,.GridAPPFinanceiro .rgEdit,.GridAPPFinanceiro .rgDel,.GridAPPFinanceiro .rgFilter,.GridAPPFinanceiro .rgPagePrev,.GridAPPFinanceiro .rgPageNext,.GridAPPFinanceiro .rgPageFirst,.GridAPPFinanceiro .rgPageLast,.GridAPPFinanceiro .rgExpand,.GridAPPFinanceiro .rgCollapse,.GridAPPFinanceiro .rgSortAsc,.GridAPPFinanceiro .rgSortDesc,.GridAPPFinanceiro .rgUpdate,.GridAPPFinanceiro .rgCancel,.GridAPPFinanceiro .rgUngroup,.GridAPPFinanceiro .rgExpXLS,.GridAPPFinanceiro .rgExpDOC,.GridAPPFinanceiro .rgExpPDF,.GridAPPFinanceiro .rgExpCSV {
+	background-image: url('Grid/sprite.gif')
+}
+.GridAPPFinanceiro .rgHeaderDiv {
+        font-weight: bold;
+
+}
+.rgTwoLines .rgHeaderDiv {
+	background-position: 0 -7050px;
+        font-weight: bold;
+}
+.GridAPPFinanceiro .rgHeader,.GridAPPFinanceiro th.rgResizeCol,.GridAPPFinanceiro .rgHeaderWrapper {
+	border-left: 1px solid;
+    border-right: 1px solid;
+	border-color: #ebf5eb;
+    background-color: #CED7DC;
+    font-weight: bold;
+}
+
+.GridAPPFinanceiro .rgMultiHeaderRow th.rgHeader,.GridAPPFinanceiro .rgMultiHeaderRow th.rgResizeCol {
+	border: 1px solid;
+	border-color: #7f8c8d;
+	border-top-width: 0;
+
+    
+}
+.GridAPPFinanceiro .rgHeaderDiv {
+	border-right-color: #CED7DC
+}
+.GridAPPFinanceiro th.rgSorted {
+	border-color: #7f8c8d;
+	background-color: #7f8c8d;
+	background-position: 0 -2600px;
+
+}
+.GridAPPFinanceiro .rgHeader {
+	color: #0c3d0c
+}
+.GridAPPFinanceiro .rgHeader a {
+	color: #222622;
+    font-weight:bold;
+}
+.GridAPPFinanceiro .rgRow td,.GridAPPFinanceiro .rgAltRow td,.GridAPPFinanceiro .rgEditRow td,.GridAPPFinanceiro .rgFooter td {
+	border-style: solid;
+	border-width: 0.1px 0.1px 0.1px 0.1px
+}
+.GridAPPFinanceiro .rgRow td {
+	border-color: #CED7DC #CED7DC #CED7DC #CED7DC;
+        text-transform:uppercase;
+
+}
+.GridAPPFinanceiro .rgAltRow {
+	background: #FFFFFF;
+    
+}
+.GridAPPFinanceiro .rgAltRow td {
+	border-color: #CED7DC;
+    text-transform:uppercase;
+
+
+}
+.GridAPPFinanceiro .rgRow .rgSorted {
+	border-bottom-color: #ebf5eb;
+	background-color: #ebf5eb
+}
+.GridAPPFinanceiro .rgSelectedRow .rgSorted,.GridAPPFinanceiro .rgActiveRow .rgSorted,.GridAPPFinanceiro .rgHoveredRow .rgSorted,.GridAPPFinanceiro .rgEditRow .rgSorted {
+	background-color: transparent
+}
+.GridAPPFinanceiro .rgRow a,.GridAPPFinanceiro .rgAltRow a,.GridAPPFinanceiro .rgEditRow a,.GridAPPFinanceiro .rgFooter a,.GridAPPFinanceiro .rgEditForm a {
+	color: #125c12
+}
+.GridAPPFinanceiro .rgMasterTable .rgSelectedCell,.GridAPPFinanceiro .rgSelectedRow {
+	background: #64e364 0 -3900px repeat-x url('Grid/sprite.gif');
+    border: 1px solid #0c3d0c;
+}
+*+html .GridAPPFinanceiro .rgSelectedRow .rgSorted,* html .GridAPPFinanceiro .rgSelectedRow .rgSorted {
+	background-color: #64e364
+}
+.GridAPPFinanceiro .rgMasterTable .rgActiveCell,.GridAPPFinanceiro .rgActiveRow,.GridAPPFinanceiro .rgHoveredRow {
+	background: #52f252 0 -2900px repeat-x url('Grid/sprite.gif');
+        border: 1px solid #0c3d0c;
+}
+*+html .GridAPPFinanceiro .rgActiveRow .rgSorted,*+html .GridAPPFinanceiro .rgHoveredRow .rgSorted {
+	background-color: #52f252
+}
+* html .GridAPPFinanceiro .rgActiveRow .rgSorted,* html .GridAPPFinanceiro .rgHoveredRow .rgSorted {
+	background-color: #52f252
+}
+.GridAPPFinanceiro .rgEditRow {
+	background: #CED7DC
+}
+*+html .GridAPPFinanceiro .rgEditRow .rgSorted,* html .GridAPPFinanceiro .rgEditRow .rgSorted {
+	background-color: #CED7DC
+}
+.GridAPPFinanceiro .rgSelectedRow td,.GridAPPFinanceiro .rgActiveRow td,.GridAPPFinanceiro .rgHoveredRow td,.GridAPPFinanceiro .rgEditRow td {
+	border-left-width: 0;
+	border-right-width: 0;
+	padding-left: 8px;
+	padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.GridAPPFinanceiro .rgSelectedRow td {
+	border-bottom-color: #49ad49
+}
+.GridAPPFinanceiro .rgSelectedRow td.rgSorted {
+	border-bottom-color: #49ad49
+}
+.GridAPPFinanceiro .rgActiveRow td,.GridAPPFinanceiro .rgHoveredRow td,.GridAPPFinanceiro .rgActiveRow td.rgSorted,.GridAPPFinanceiro .rgHoveredRow td.rgSorted {
+	border-bottom-color: #5bc95b
+}
+.GridAPPFinanceiro .rgEditRow td {
+	border-color: #CED7DC
+}
+.GridAPPFinanceiro .rgEditRow td.rgSorted {
+	border-color: #CED7DC
+}
+.GridAPPFinanceiro .rgRow {
+    background: #FFFFFF;
+}
+.GridAPPFinanceiro .rgDrag {
+	background-image: url('Grid/rgDrag.gif')
+}
+.GridAPPFinanceiro .rgFooterDiv,.GridAPPFinanceiro .rgFooter,.GridAPPFinanceiro .rgFooterWrapper {
+	background: #CED7DC
+}
+.GridAPPFinanceiro .rgFooter td,.GridAPPFinanceiro .rgFooterWrapper {
+	border-top-width: 1px;
+	border-color: #b1c9b1 #CED7DC #CED7DC #CED7DC
+}
+.GridAPPFinanceiro .rgFooterWrapper .rgFooter td {
+	border-bottom: 0
+}
+.GridAPPFinanceiro .rgFooterWrapper {
+	border-bottom: 1px solid #CED7DC
+}
+.GridAPPFinanceiro .rgPager .rgStatus {
+	border: 1px solid;
+	border-color: #b1c9b1 #b1c9b1 #CED7DC #b1c9b1;
+	border-left-width: 0
+}
+.GridAPPFinanceiro .rgStatus div {
+	background-image: url('Common/loading_small.gif')
+}
+.GridAPPFinanceiro .rgPager {
+	background: #CED7DC
+}
+.GridAPPFinanceiro td.rgPagerCell {
+	border: 1px solid;
+	border-color: #b1c9b1 #CED7DC #CED7DC;
+	border-right-width: 0
+}
+.GridAPPFinanceiro .rgInfoPart {
+	color: #626662
+}
+.GridAPPFinanceiro .rgInfoPart strong {
+	color: #222622
+}
+.GridAPPFinanceiro .rgPageFirst {
+	background-position: 0 -550px
+}
+.GridAPPFinanceiro .rgPageFirst: hover {
+	background-position: 0 -600px
+}
+.GridAPPFinanceiro .rgPagePrev {
+	background-position: 0 -700px
+}
+.GridAPPFinanceiro .rgPagePrev: hover {
+	background-position: 0 -750px
+}
+.GridAPPFinanceiro .rgPageNext {
+	background-position: 0 -850px
+}
+.GridAPPFinanceiro .rgPageNext: hover {
+	background-position: 0 -900px
+}
+.GridAPPFinanceiro .rgPageLast {
+	background-position: 0 -1000px
+}
+.GridAPPFinanceiro .rgPageLast: hover {
+	background-position: 0 -1050px
+}
+.GridAPPFinanceiro .rgPager .rgPagerButton {
+	border-color: #41ba41 #2f9e2f #1d821d;
+	/*background: #93f593 repeat-x 0 -1550px url('Grid/sprite.gif');*/
+	color: #F8B700;
+	font: 12px / 12px "Open sans",arial,sans-serif
+}
+
+.GridAPPFinanceiro .rgNumPart a {
+	color: #222622
+}
+.GridAPPFinanceiro .rgNumPart a: hover,.GridAPPFinanceiro .rgNumPart a.rgCurrentPage {
+	/*background: no-repeat url('Grid/sprite.gif')*/
+}
+.GridAPPFinanceiro .rgNumPart a: hover span,.GridAPPFinanceiro .rgNumPart a.rgCurrentPage span {
+	/*background: no-repeat url('Grid/sprite.gif')*/
+}
+.GridAPPFinanceiro .rgNumPart a: hover {
+	background-position: 100% -1250px;
+	color: #1c871c
+}
+.GridAPPFinanceiro .rgNumPart a: hover span {
+	background-position: 0 -1150px
+}
+.GridAPPFinanceiro .rgNumPart a.rgCurrentPage {
+	background-position: 100% -1450px;
+	color: #125c12
+}
+.GridAPPFinanceiro .rgNumPart a.rgCurrentPage: hover {
+	background-position: 100% -1450px;
+	color: #125c12
+}
+.GridAPPFinanceiro .rgNumPart a.rgCurrentPage span,.GridAPPFinanceiro .rgNumPart a.rgCurrentPage: hover span {
+	background-position: 0 -1350px
+}
+.GridAPPFinanceiro .rgHeader .rgSortAsc {
+	background-position: 3px -247px;
+	height: 10px
+}
+.GridAPPFinanceiro .rgHeader .rgSortDesc {
+	background-position: 3px -197px;
+	height: 10px
+}
+.GridReorderTop_way {
+	/*background: 0 0 no-repeat url('Grid/sprite.gif')*/
+}
+.GridReorderBottom_way {
+	/*background: 0 0 no-repeat url('Grid/sprite.gif');*/
+	background-position: 0 -50px
+}
+.GridAPPFinanceiro .rgFilterRow {
+	background: #CED7DC
+}
+.GridAPPFinanceiro .rgFilterRow td {
+	border: 1px solid;
+	border-top-width: 0;
+	border-color: #CED7DC #CED7DC #728a72
+}
+.GridAPPFinanceiro .rgFilter {
+	background-position: 0 -300px
+}
+.GridAPPFinanceiro .rgFilter: hover {
+	background-position: 0 -350px
+}
+.GridAPPFinanceiro .rgFilterActive {
+	background-position: 0 -400px
+}
+.GridAPPFinanceiro .rgFilterActive: hover {
+	background-position: 0 -400px
+}
+.GridAPPFinanceiro .rgFiltered {
+	background-position: 0 -325px
+}
+.GridAPPFinanceiro .rgFiltered: hover {
+	background-position: 0 -375px
+}
+.GridAPPFinanceiro .rgFiltered.rgFilterActive {
+	background-position: 0 -425px
+}
+.GridAPPFinanceiro .rgFilterBox {
+	border-color: #CED7DC;
+	font: 12px "Open sans",arial,sans-serif;
+	color: #222622
+}
+.RadMenu_way .rgHCMClear,.RadMenu_way .rgHCMFilter {
+	border-color: #CED7DC;
+	/*background: #ccdecc center -23px repeat-x url('FormDecorator/ButtonSprites.png');*/
+	color: #0c3d0c;
+	font-family: "Open sans",arial,sans-serif
+}
+.RadMenu_way .rgHCMClear: hover,.RadMenu_way .rgHCMFilter: hover {
+	border-color: #4abd4a #3ead3e #329c32;
+	background-position: center -67px;
+	background-color: #81f781
+}
+.RadMenu_way_Context .rgFilterApply,.RadMenu_way_Context .rgFilterCancel {
+	/*background-image: url('Common/radGradientButtonSprite.png');*/
+	_background-image: none;
+	border-color: #CED7DC;
+	color: #0c3d0c;
+	background-color: #ccdecc;
+	background-image: linear-gradient(#e6f2e6 0,#ccdecc 100%);
+	font-family: "Open sans",Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #0c3d0c;
+	border-color: #b0b0b0 #CED7DC #CED7DC #b0b0b0
+}
+div.RadMenu_way_Context .rlbGroup {
+	border-color: #bad1ba
+}
+.GridContextMenu_way .rmLeftImage {
+	/*background-image: url('Common/contextMenu.gif')*/
+}
+.GridContextMenu_way .rgHCMSortAsc .rmLeftImage {
+	background-position: 0 0
+}
+.GridContextMenu_way .rgHCMSortDesc .rmLeftImage {
+	background-position: 0 -40px
+}
+.GridContextMenu_way .rgHCMUnsort .rmLeftImage {
+	background-position: 0 -80px
+}
+.GridContextMenu_way .rgHCMGroup .rmLeftImage {
+	background-position: 0 -120px
+}
+.GridContextMenu_way .rgHCMUngroup .rmLeftImage {
+	background-position: 0 -160px
+}
+.GridContextMenu_way .rgHCMCols .rmLeftImage {
+	background-position: 0 -200px
+}
+.GridContextMenu_way .rgHCMFilter .rmLeftImage {
+	background-position: 0 -240px
+}
+.GridContextMenu_way .rgHCMUnfilter .rmLeftImage {
+	background-position: 0 -280px
+}
+.GridAPPFinanceiro .rgGroupPanel {
+	border: 0;
+	border-bottom: 1px solid #434f43;
+	/*background: #a0b0a0 0 -1900px repeat-x url('Grid/sprite.gif');*/
+	color: transparent
+}
+.GridAPPFinanceiro .rgGroupPanel caption {
+	background: #b2c2b2
+}
+.GridAPPFinanceiro .rgGroupPanel td {
+	border: 0;
+	padding: 1px;
+	vertical-align: middle
+}
+.GridAPPFinanceiro .rgGroupPanel td td {
+	padding: 0
+}
+.GridAPPFinanceiro .rgGroupPanel .rgSortAsc {
+	background-position: 4px -144px
+}
+.GridAPPFinanceiro .rgGroupPanel .rgSortDesc {
+	background-position: 4px -94px
+}
+.GridAPPFinanceiro .rgUngroup {
+	background-position: 0 -7000px
+}
+.GridAPPFinanceiro .rgGroupItem {
+	border: 1px solid #398f39;
+	/*background: #64e364 0 -6500px repeat-x url('Grid/sprite.gif');*/
+	color: #125c12
+}
+.GridAPPFinanceiro .rgGroupHeader {
+	background: #8ea38e;
+	font-size: 1.1em;
+	line-height: 21px;
+	color: transparent
+}
+.GridAPPFinanceiro .rgGroupHeader td {
+	padding: 0 8px
+}
+.GridAPPFinanceiro td.rgGroupCol,.GridAPPFinanceiro td.rgExpandCol {
+	border-color: #8ea38e
+	background: #8ea38e none;
+}
+.GridAPPFinanceiro .rgExpand {
+	background-position: 5px -496px
+}
+.GridAPPFinanceiro .rgCollapse {
+	background-position: 3px -454px
+}
+.GridAPPFinanceiro .rgEditForm {
+	border-bottom: 1px solid #b1c9b1;
+	background: #ddebdd
+}
+.GridAPPFinanceiro .rgUpdate {
+	background-position: 0 -1800px
+}
+.GridAPPFinanceiro .rgCancel {
+	background-position: 0 -1850px
+}
+.GridAPPFinanceiro .rgDetailTable {
+	border-color: #b1c9b1
+}
+.GridAPPFinanceiro .rgCommandRow {
+	/*background: #7f8c8d 0 0 repeat-x url('Grid/rgCommandRow.gif');*/
+
+}
+.GridAPPFinanceiro .rgCommandCell {
+	border: 0;
+	padding: 1px;
+}
+.GridAPPFinanceiro thead .rgCommandCell {
+	border-bottom: 0px solid #2e362e
+}
+.GridAPPFinanceiro tfoot .rgCommandCell,.GridAPPFinanceiro .rgMasterTable>tbody>tr.rgCommandRow .rgCommandCell {
+	border: 1px solid #2e362e
+}
+.GridAPPFinanceiro .rgCommandTable {
+	border: 0px solid;
+	border-color: #839683
+}
+.GridAPPFinanceiro .rgCommandTable td {
+	border: 0;
+	padding: 2px 4px;
+    border-radius: 5px;
+
+}
+.GridAPPFinanceiro .rgCommandRow a {
+	color: transparent;
+	text-decoration: none
+}
+.GridAPPFinanceiro .rgAdd {
+	margin-right: 3px;
+	background-position: 0 -1650px
+}
+.GridAPPFinanceiro .rgRefresh {
+	margin-right: 3px;
+	background-position: 0 -1600px
+}
+.GridAPPFinanceiro .rgEdit {
+	background-position: 0 -1700px
+}
+.GridAPPFinanceiro .rgDel {
+	background-position: 0 -1750px
+}
+.GridAPPFinanceiro .rgExpXLS,.GridAPPFinanceiro .rgExpDOC,.GridAPPFinanceiro .rgExpPDF,.GridAPPFinanceiro .rgExpCSV {
+	/*background-image: url('Common/export.gif')*/
+}
+.GridAPPFinanceiro .rgExpXLS {
+	background-position: 0 0
+}
+.GridAPPFinanceiro .rgExpDOC {
+	background-position: 0 -50px
+}
+.GridAPPFinanceiro .rgExpPDF {
+	background-position: 0 -100px
+}
+.GridAPPFinanceiro .rgExpCSV {
+	background-position: 0 -150px
+}
+.rgCellSelectorArea_way,.GridRowSelector_way {
+	background: #1f701f
+}
+.GridItemDropIndicator_way {
+	border-top: 1px dashed #1f701f
+}
+.GridToolTip_way {
+	border: 1px solid #b1c9b1;
+	padding: 7px;
+	background: #ebf5eb;
+	color: #222622
+}
+.RadGridRTL_way .rgHeader: first-child,.RadGridRTL_way th.rgResizeCol: first-child,.RadGridRTL_way .rgFilterRow>td: first-child,.RadGridRTL_way .rgRow>td: first-child,.RadGridRTL_way .rgAltRow>td: first-child {
+	border-left-width: 0px;
+	padding-left: 7px
+}
+.RadGridRTL_way .rgPageFirst {
+	background-position: 0 -1000px
+}
+.RadGridRTL_way .rgPageFirst: hover {
+	background-position: 0 -1050px
+}
+.RadGridRTL_way .rgPagePrev {
+	background-position: 0 -850px
+}
+.RadGridRTL_way .rgPagePrev: hover {
+	background-position: 0 -900px
+}
+.RadGridRTL_way .rgPageNext {
+	background-position: 0 -700px
+}
+.RadGridRTL_way .rgPageNext: hover {
+	background-position: 0 -750px
+}
+.RadGridRTL_way .rgPageLast {
+	background-position: 0 -550px
+}
+.RadGridRTL_way .rgPageLast: hover {
+	background-position: 0 -600px
+}
+.RadGridRTL_way .rgExpand {
+	background-position: -20px -496px
+}
+
+.RadTabStrip_way {
+	color: #222622;
+	font: 12px "Open sans",Arial,Helvetica,sans-serif;
+	line-height: 26px
+}
+.RadTabStrip_way .rtsGhostTab {
+	border-color: #CED7DC;
+	border-radius: 5px;
+	color: #0c3d0c;
+	background-color: #ccdecc
+}
+.RadTabStrip_way .rtsLI,.RadTabStrip_way .rtsLink {
+	color: #787B7D;
+	font: 12px/26px "Open sans",Arial,sans-serif
+}
+.RadTabStripLeft_way .rtsSeparator,.RadTabStripRight_way .rtsSeparator {
+	background: #678267
+}
+.RadTabStrip_way .rtsDisabled {
+	color: #666666
+}
+.RadTabStrip_way .rtsNextArrow,.RadTabStrip_way .rtsPrevArrow,.RadTabStrip_way .rtsPrevArrowDisabled,.RadTabStrip_way .rtsNextArrowDisabled {
+	/*background-image: url('TabStrip/TabStripStates.png')*/
+}
+.RadTabStripTop_way .rtsLevel {
+	background-color: transparent
+}
+.RadTabStripTop_way .rtsLevel .rtsLink,.RadTabStripTop_way .rtsLevel .rtsOut,.RadTabStripBottom_way .rtsLevel .rtsLink,.RadTabStripBottom_way .rtsLevel .rtsOut,.RadTabStripTop_way_Baseline .rtsLevel,.RadTabStripBottom_way_Baseline .rtsLevel {
+	/*background-image: url('TabStrip/TabStripStates.png')*/
+}
+.RadTabStripLeft_way .rtsLink,.RadTabStripRight_way .rtsLink {
+	/*background-image: url('TabStrip/TabStripVStates.png')*/
+}
+.RadTabStripLeft_way .rtsLast .rtsLink,.RadTabStripRight_way .rtsLast .rtsLink {
+	border-bottom: 1px solid #8b948b
+}
+.RadTabStripRight_way .rtsLink,.RadTabStripRight_way .rtsLI .rtsDisabled: hover {
+	background-position: 100% 0
+}
+.RadTabStripRight_way .rtsLink: hover {
+	background-position: 100% -200px
+}
+.RadTabStripRight_way .rtsSelected,.RadTabStripRight_way .rtsSelected: hover {
+	background-position: 100% -400px
+}
+.RadTabStripTop_way .rtsLink {
+	background-position: 0 0
+}
+.RadTabStripTop_way .rtsOut {
+	background-position: 100% 0
+}
+.RadTabStripTop_way .rtsLink: hover {
+	background-position: 0 -52px
+}
+.RadTabStripTop_way .rtsLink: hover .rtsOut {
+	background-position: 100% -52px
+}
+.RadTabStripTop_way .rtsSelected,.RadTabStripTop_way .rtsSelected: hover {
+	background-position: 0 -26px
+}
+.RadTabStripTop_way .rtsSelected .rtsOut,.RadTabStripTop_way .rtsSelected: hover .rtsOut {
+	background-position: 100% -26px
+}
+.RadTabStripTop_way .rtsDisabled: hover {
+	background-position: 0 0
+}
+.RadTabStripTop_way .rtsDisabled: hover .rtsOut {
+	background-position: 100% 0
+}
+.RadTabStripTop_way_Baseline .rtsLevel {
+	background-position: 0 100%;
+	background-repeat: repeat-x
+}
+.RadTabStripBottom_way .rtsLink {
+	background-position: 0 -182px
+}
+.RadTabStripBottom_way .rtsOut {
+	background-position: 100% -182px
+}
+.RadTabStripBottom_way .rtsLink: hover {
+	background-position: 0 -130px
+}
+.RadTabStripBottom_way .rtsLink: hover .rtsOut {
+	background-position: 100% -130px
+}
+.RadTabStripBottom_way .rtsSelected,.RadTabStripBottom_way .rtsSelected: hover {
+	background-position: 0 -156px
+}
+.RadTabStripBottom_way .rtsSelected .rtsOut,.RadTabStripBottom_way .rtsSelected: hover .rtsOut {
+	background-position: 100% -156px
+}
+.RadTabStripBottom_way .rtsDisabled: hover {
+	background-position: 0 -182px
+}
+.RadTabStripBottom_way .rtsDisabled: hover .rtsOut {
+	background-position: 100% -182px
+}
+.RadTabStripBottom_way_Baseline .rtsLevel {
+	background-position: 0 -599px;
+	background-repeat: repeat-x
+}
+.RadTabStripRight_way .rtsUL .rtsLink,.RadTabStripRight_way .rtsUL .rtsLI .rtsDisabled: hover {
+	background-position: 100% 0;
+	text-align: left
+}
+.RadTabStripRight_way .rtsUL .rtsLink: hover {
+	background-position: 100% -200px
+}
+.RadTabStripRight_way .rtsUL .rtsSelected,.RadTabStripRight_way .rtsUL .rtsSelected: hover {
+	background-position: 100% -400px
+}
+.RadTabStrip_way_SimpleSubItems .rtsLevel2,.RadTabStrip_way_SimpleSubItems .rtsLevel3,.RadTabStrip_way_SimpleSubItems .rtsLevel4 {
+	background: transparent
+}
+.RadTabStrip_way_SimpleSubItems .rtsLevel2 .rtsSelected,.RadTabStrip_way_SimpleSubItems .rtsLevel3 .rtsSelected,.RadTabStrip_way_SimpleSubItems .rtsLevel4 .rtsSelected {
+	text-decoration: underline
+}
+.RadTabStrip_way_SimpleSubItems .rtsLevel2 .rtsLink,.RadTabStrip_way_SimpleSubItems .rtsLevel2 .rtsOut,.RadTabStrip_way_SimpleSubItems .rtsLevel2 .rtsIn,.RadTabStrip_way_SimpleSubItems .rtsLevel3 .rtsLink,.RadTabStrip_way_SimpleSubItems .rtsLevel3 .rtsOut,.RadTabStrip_way_SimpleSubItems .rtsLevel3 .rtsIn,.RadTabStrip_way_SimpleSubItems .rtsLevel4 .rtsLink,.RadTabStrip_way_SimpleSubItems .rtsLevel4 .rtsOut,.RadTabStrip_way_SimpleSubItems .rtsLevel4 .rtsIn {
+	background: 0
+}
+.RadTabStrip_way_disabled .rtsLink {
+	color: #666666;
+	cursor: default
+}
+.RadTabStrip_way_disabled .rtsLink: hover {
+	background-position: 0 0
+}
+.RadTabStrip_way_disabled .rtsLink: hover .rtsOut {
+	background-position: 100% 0
+}
+.rtsDropClue_way {
+	/*background-image: url('Common/rtsDropClueSprite.png')*/
+}
+.rtsDropClueTop_way {
+	background-position: 0 -20px
+}
+.rtsDropClueRight_way {
+	background-position: 0 -30px
+}
+.rtsDropClueBottom_way {
+	background-position: 0 0
+}
+.rtsDropClueLeft_way {
+	background-position: 0 -10px
+}
+.rgRow input{
+    font-family: 'Arial';
+    background-size: 100%;
+    border-radius:2px;
+    border-width: 0px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: Center;
+    align-items:center;
+    background-color:#2C3E50;
+    height:100%;
+    width:100%;
+}
+.rgAltRow input{
+    font-family: 'Arial';
+    background-size: 100%;
+    border-radius:2px;
+    border-width: 0px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: Center;
+    align-items:center;
+    background-color:#2C3E50;
+    height:100%;
+    width:100%;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+  <title>GPROJETO - SISTEMA DE ACOMPANHAMENTO DE PROJETOS</title>
+</head>
+
+<style>
+
+ #main
+  {
+    margin:0 auto;
+    width:640px;
+    Height:640px;
+    background-color:#6DDBE8;
+    background-position:left 157px;
+  }
+
+  #end
+  {
+    width:600px;
+    float:left;
+    padding: 50px 10px 50px 50px;
+  }
+
+  body
+  {
+    background-color: #6DDBE8;
+    font-family: "Arial", "Crimson Text", "Times New Roman", serif, Helvetica, sans-serif;
+    font-size: 120%;
+    color: #1b373c;
+    line-height: 1.5;
+  }
+
+ #text
+  {
+    padding: 10px 50px 0 50px;
+    text-align: Justify; 
+  }
+
+  h1
+  {
+    font-size:140%;
+  }
+  
+ span
+  {
+    line-height:30px;
+  }
+
+  #footer
+  {
+    padding: 30px 0 0 0;
+  }
+
+</style>
+
+
+<body>
+
+ <div id="main">
+      <div id="text">
+          <h1>Prezado(a) ¥parNOME¥,</h1><br />
+          <span>Foi inserido um novo cadastro no Sistema GProjeto,  necessita validação do cadastro para acesso.<br /> </span>
+          <br />
+          <span><b>Link de Acesso: </b></span>
+          <span><a href="http://servicos.dnit.gov.br/gprojeto/Pages/Login.aspx">http://servicos.dnit.gov.br/pls/Pages/Login.aspx</a><br /></span> 
+          <br />       
+          <span><b>Acesso Intranet: </b></span>
+          <span><a href="https://gprojeto.hom.dnit.gov.br">https://gprojeto.hom.dnit.gov.br</a><br /></span>
+   
+                        
+      </div>
+    
+      <div id="end">
+          <br /><br />
+          <i>PLS Suporte</i><br />
+          <i><b>Departamento Nacional de Infraestrutura de Transportes</b></i><br />
+      </div>
+ </div>
+
+ 
+</body>
+</html>

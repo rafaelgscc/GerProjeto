@@ -1,0 +1,286 @@
+
+
+.c_Form1
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+#Form1_body
+{
+	background-color: #FFFFFF;
+	height: 478px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	width: 909px;
+	height: 478px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	left: 0px;
+	margin: 0 0 0 0;
+	position: relative;
+	top: 0px;
+}
+
+.c_AjaxPanel1
+{
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	background-color: Transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	cursor: inherit;
+	height: 100%;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_Image1
+{
+	position: absolute !important;
+	left: 52px;
+	top: 151px;
+	width: 152px;
+	height: 152px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	cursor: inherit;
+	Object-fit: cover;
+}
+
+.c_Div1
+{
+	background-color: Transparent;
+	position: absolute;
+	left: 254px;
+	top: 146px;
+	width: 583px;
+	height: 182px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #CCCCCC;
+	border-style: Solid;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+}
+
+.c_Label1
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 36px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 20px;
+	top: 13px;
+	width: 552px;
+	height: 43px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #CC0000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Label4
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 20px;
+	top: 57px;
+	width: 500px;
+	height: 21px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #666666;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Div2
+{
+	background-color: Transparent;
+	position: absolute;
+	left: 20px;
+	top: 86px;
+	width: 540px;
+	height: 79px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #CCCCCC;
+	border-style: Solid;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+}
+
+.c_Label2
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 20px;
+	top: 15px;
+	width: 73px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #767676;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Right;
+	word-wrap: normal;
+}
+
+.c_Label3
+{
+	background-color: Transparent;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 20px;
+	top: 46px;
+	width: 73px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #767676;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Right;
+	word-wrap: normal;
+}
+
+.c_labHttpErrorCode
+{
+	font-family: Arial;
+	font-size: 12px;
+	position: absolute !important;
+	left: 104px;
+	top: 15px;
+	width: 424px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #CC0000;
+	cursor: inherit;
+	display: block;
+	font-weight: 300;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_labHttpErrorMessage
+{
+	font-family: Arial;
+	font-size: 12px;
+	position: absolute !important;
+	left: 104px;
+	top: 46px;
+	width: 427px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #CC0000;
+	cursor: inherit;
+	display: block;
+	font-weight: 300;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}

@@ -1,0 +1,873 @@
+
+
+.c_Form1
+{
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+#Form1_body
+{
+	background-color: #FFFFFF;
+	height: 900px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	height: 900px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	left: 0px;
+	margin: 0 0 0 0;
+	position: relative;
+	top: 0px;
+}
+
+.c_MainAjaxPanel
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+.c_DivPrincipal
+{
+	background-color: Transparent;
+	margin-left: -740px;
+	margin-top: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute;
+	left: 50%;
+	width: 1480px;
+	height: 867px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 0px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+}
+
+.c_DivMenu
+{
+	background-color: #2C3E50;
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute;
+	left: 0px;
+	top: 7px;
+	right: 0px;
+	height: 40px;
+	-webkit-box-shadow: inset 4px 3px 16px 28px rgba(0,0,0,0.36);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 0px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_Button1
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: Lighter;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: absolute !important;
+	left: 586px;
+	top: 0px;
+	bottom: 0px;
+	width: 77px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	height: 100%;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button1:not(:hover), .c_Button1.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #FFFFFF !important;
+}
+
+.c_Button2
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: Lighter;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: absolute !important;
+	left: 251px;
+	top: 0px;
+	bottom: 0px;
+	width: 83px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	height: 100%;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button2:not(:hover), .c_Button2.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #FFFFFF !important;
+}
+
+.c_Button3
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: Lighter;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: absolute !important;
+	left: 335px;
+	top: 0px;
+	bottom: 0px;
+	width: 88px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	height: 100%;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button3:not(:hover), .c_Button3.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #FFFFFF !important;
+}
+
+.c_Button4
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: Lighter;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: absolute !important;
+	left: 423px;
+	top: 0px;
+	bottom: 0px;
+	width: 77px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	height: 100%;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button4:not(:hover), .c_Button4.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #FFFFFF !important;
+}
+
+.c_Button5
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: Lighter;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: absolute !important;
+	left: 501px;
+	top: 0px;
+	bottom: 0px;
+	width: 84px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	height: 100%;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button5:not(:hover), .c_Button5.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #FFFFFF !important;
+}
+
+.c_Button7
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: Lighter;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: absolute !important;
+	left: 1155px;
+	top: 0px;
+	bottom: 0px;
+	width: 87px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	height: 100%;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button7:not(:hover), .c_Button7.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #FFFFFF !important;
+}
+
+.c_Button8
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: Lighter;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: absolute !important;
+	left: 1243px;
+	top: 0px;
+	bottom: 0px;
+	width: 87px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	height: 100%;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button8:not(:hover), .c_Button8.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #FFFFFF !important;
+}
+
+.c_Button9
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: Lighter;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: absolute !important;
+	left: 664px;
+	top: 0px;
+	bottom: 0px;
+	width: 87px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	height: 100%;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button9:not(:hover), .c_Button9.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #FFFFFF !important;
+}
+
+.c_mnAdministracao
+{
+	position: absolute !important;
+	left: 1343px;
+	top: 6px;
+	width: 127px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	z-index: 2500;
+}
+
+#mnAdministracao > ul
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#mnAdministracao > ul > li
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 100%;
+}
+
+.RadMenu .rmRootGroup
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_mnAdm
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem2
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem3
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_DivProjetos
+{
+	background-color: #ECF0F1;
+	margin-left: 10px;
+	margin-right: 10px;
+	--mleft: 10px;
+	--mright: 10px;
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	right: 0px;
+	height: 758px;
+	-webkit-box-shadow: inset 4px 3px 16px 28px rgba(0,0,0,0.36);
+	background-position: center;
+	background-repeat: repeat;
+	background-size: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 0px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_Grid2
+{
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	outline-style: none !important;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+#Grid2 caption
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn16
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn26
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn27
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn17
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn18
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn24
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn23
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn22
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn29
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn21
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn19
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GComboBoxItem1
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_GComboBoxItem1
+{
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.c_GridColumn28
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn25
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_Div1
+{
+	background-color: Transparent;
+	margin-left: 10px;
+	margin-right: 10px;
+	--mleft: 10px;
+	--mright: 10px;
+	position: absolute;
+	left: 0px;
+	top: 52px;
+	right: 0px;
+	height: 44px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #000000;
+	border-style: Solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_Label1
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	margin-top: -9px;
+	position: absolute !important;
+	left: 8px;
+	top: 50%;
+	width: 91px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_cmbCoordenacao
+{
+	margin-top: -16px;
+	position: absolute !important;
+	left: 105px;
+	top: 50%;
+	width: 205px;
+	width: 205px !important;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_WSPrincipal
+{
+	position: absolute !important;
+	left: 973px;
+	top: 58px;
+	width: 124px;
+	height: 35px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.RadWindow
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_WSRelatorio
+{
+	position: absolute !important;
+	left: 812px;
+	top: 24px;
+	width: 120px;
+	height: 120px;
+	Clip: rect(auto auto auto auto);
+}
+/*		Hover style		*/
+
+
+.c_Button1:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #FFFFFF !important;
+	color: #2C3E50 !important;
+}
+
+.c_Button1:hover
+{
+	border-color: #FFFFFF !important;
+}
+
+.c_Button2:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #FFFFFF !important;
+	color: #2C3E50 !important;
+}
+
+.c_Button2:hover
+{
+	border-color: #FFFFFF !important;
+}
+
+.c_Button3:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #FFFFFF !important;
+	color: #2C3E50 !important;
+}
+
+.c_Button3:hover
+{
+	border-color: #FFFFFF !important;
+}
+
+.c_Button4:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #FFFFFF !important;
+	color: #2C3E50 !important;
+}
+
+.c_Button4:hover
+{
+	border-color: #FFFFFF !important;
+}
+
+.c_Button5:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #FFFFFF !important;
+	color: #2C3E50 !important;
+}
+
+.c_Button5:hover
+{
+	border-color: #FFFFFF !important;
+}
+
+.c_Button7:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #FFFFFF !important;
+	color: #2C3E50 !important;
+}
+
+.c_Button7:hover
+{
+	border-color: #FFFFFF !important;
+}
+
+.c_Button8:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #FFFFFF !important;
+	color: #2C3E50 !important;
+}
+
+.c_Button8:hover
+{
+	border-color: #FFFFFF !important;
+}
+
+.c_Button9:hover
+{
+	background-color: #FFFFFF !important;
+	border-color: #FFFFFF !important;
+	color: #2C3E50 !important;
+}
+
+.c_Button9:hover
+{
+	border-color: #FFFFFF !important;
+}

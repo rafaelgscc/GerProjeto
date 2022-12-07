@@ -1,0 +1,268 @@
+
+
+.c_Form1
+{
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+#Form1_body
+{
+	background-color: #FFFFFF;
+	height: 377px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	height: 377px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	left: 0px;
+	margin: 0 0 0 0;
+	min-height: 213px;
+	position: relative;
+	top: 0px;
+}
+
+.c_Div1
+{
+	background-color: #FFFFFF;
+	margin-left: -252px;
+	margin-top: -106px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 504px;
+	height: 213px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #333333;
+	border-style: Solid;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+}
+
+.c_Div4
+{
+	background-color: #006699;
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	width: 504px;
+	height: 53px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #333333;
+	border-style: Solid;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+}
+
+.c_labSolutionTitle
+{
+	font-family: Verdana;
+	font-size: 18px;
+	font-weight: Bolder;
+	font-weight: 800;
+	position: absolute !important;
+	left: 5px;
+	top: 6px;
+	width: 184px;
+	height: 25px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #FFFFFF;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_ProjectVersion
+{
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: Bolder;
+	font-weight: 800;
+	position: absolute !important;
+	left: 5px;
+	top: 27px;
+	width: 100px;
+	height: 25px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #FFFFFF;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Panel1
+{
+	position: absolute !important;
+	left: 14px;
+	top: 64px;
+	width: 470px;
+	height: 111px;
+	background-color: #FFFFFF;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #CCCCCC;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_labProjectTitle
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	font-weight: 800;
+	position: absolute !important;
+	left: 8px;
+	top: 7px;
+	width: 215px;
+	height: 25px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_CompanyName
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	font-weight: 800;
+	position: absolute !important;
+	left: 8px;
+	top: 33px;
+	width: 215px;
+	height: 25px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_DeveloperName
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: Bolder;
+	font-weight: 800;
+	position: absolute !important;
+	left: 8px;
+	top: 59px;
+	width: 215px;
+	height: 25px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #333333;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_ProjectCopyright
+{
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: Bolder;
+	font-weight: 800;
+	position: absolute !important;
+	left: 67px;
+	top: 181px;
+	width: 371px;
+	height: 21px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #BBBBBB;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Center;
+	word-wrap: normal;
+}

@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GERPROJETO>
+<DATABASE TITLE="DBGERPROJETO" NAME="DBGERPROJETO">
+	<TABLE TITLE="TB_CAD_PREVIO" NAME="TB_CAD_PREVIO">
+		<FIELD TYPE="TEXT" SIZE="60" MASK="@!" TITLE="Nome do grupo" NAME="LOGIN_GROUP_NAME" />
+		<FIELD TYPE="TEXT" SIZE="60" MASK="@!" TITLE="Nome do usuário" NAME="LOGIN_USER_NAME" />
+		<FIELD TYPE="TEXT" SIZE="40" MASK="@!" TITLE="Login" NAME="LOGIN_USER_LOGIN" />
+		<FIELD TYPE="TEXT" SIZE="60" TITLE="LOGIN_USER_EMAIL" NAME="LOGIN_USER_EMAIL" />
+		<FIELD TYPE="TEXT" SIZE="15" MASK="(99) 99999-9999" TITLE="LOGIN_USER_PHONE" NAME="LOGIN_USER_PHONE" />
+		<FIELD TYPE="MEMO" MASK="@!" TITLE="Observações" NAME="LOGIN_USER_OBS" />
+		<INDEX TITLE="PK_TB_CAD_PREVIO" NAME="PK_TB_CAD_PREVIO" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="LOGIN_USER_LOGIN" />
+		</INDEX>
+	</TABLE>
+	<TABLE TITLE="Cadastro de Coordenações" NAME="TB_COORDENACAO">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="TRUE" SEQUENCE="1" TITLE="Código" NAME="codigo" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Sigla da Diretoria" NAME="siglaDiretoria" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coord. Geral" NAME="siglaCoordenacao" />
+		<FIELD TYPE="TEXT" SIZE="100" TITLE="Nome da Coordenacao" NAME="nomeCoordenacao" />
+		<FIELD TYPE="TEXT" SIZE="100" MASK="@!" TITLE="Nome do Coordenador" NAME="nomeCoordenador" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Cadastrado por" NAME="usuarioCadastro" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Data do Cadastro" NAME="dataCadastro" />
+		<INDEX TITLE="NK_TB_COORDENACAO1" NAME="NK_TB_COORDENACAO1" PRIMARY="False" UNIQUE="True" ISCLUSTER="False" FILLFACTOR="90">
+			<FIELD NAME="siglaDiretoria" />
+			<FIELD NAME="siglaCoordenacao" />
+		</INDEX>
+		<INDEX TITLE="PK_TB_COORDENACAO" NAME="PK_TB_COORDENACAO" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="codigo" />
+		</INDEX>
+	</TABLE>
+	<TABLE TITLE="Cadastro das diretorias" NAME="TB_DIRETORIA">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="TRUE" SEQUENCE="1" TITLE="Código" NAME="codigo" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Sigla da Diretoria" NAME="siglaDiretoria" />
+		<FIELD TYPE="TEXT" SIZE="100" MASK="@!" TITLE="Nome da Diretoria" NAME="nomeDiretoria" />
+		<FIELD TYPE="TEXT" SIZE="100" MASK="@!" TITLE="nomeDiretor" NAME="nomeDiretor" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Cadastrado por" NAME="usuarioCadastro" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Data do Cadastro" NAME="dataCadastro" />
+		<INDEX TITLE="NK_TB_DIRETORIA1" NAME="NK_TB_DIRETORIA1" PRIMARY="False" UNIQUE="True" ISCLUSTER="False" FILLFACTOR="90">
+			<FIELD NAME="siglaDiretoria" />
+		</INDEX>
+		<INDEX TITLE="PK_TB_DIRETORIA" NAME="PK_TB_DIRETORIA" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="codigo" />
+		</INDEX>
+	</TABLE>
+	<TABLE TITLE="Histórico de Execução da Atividade" NAME="TB_HIST_EXECUCAO_ATIVIDADE">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Código da Diretriz" NAME="projeto" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="99999" INTERNAL_SEQUENCE="FALSE" DEFAULT="1" TITLE="Código da Ação" NAME="itemProjeto" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="99999" INTERNAL_SEQUENCE="FALSE" DEFAULT="1" TITLE="Código da Atividade" NAME="itemProcesso" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Executado em" NAME="dataLancamento" />
+		<FIELD TYPE="NUMBER" SIZE="1" MASK="9" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Justificativa" NAME="justificativa" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="999,99" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="% de Execução" NAME="percentualExecutado" />
+		<FIELD TYPE="MEMO" TITLE="Observação" NAME="observacao" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Cadastrado por" NAME="usuarioCadastro" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Data do Cadastro" NAME="dataCadastro" />
+		<INDEX TITLE="PK_TB_HIST_EXECUCAO_ATIVIDADE" NAME="PK_TB_HIST_EXECUCAO_ATIVIDADE" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="projeto" />
+			<FIELD NAME="itemProjeto" />
+			<FIELD NAME="itemProcesso" />
+			<FIELD NAME="dataLancamento" />
+			<FIELD NAME="justificativa" />
+		</INDEX>
+	</TABLE>
+	<TABLE TITLE="Meta / Ação" NAME="TB_ITENS_PROJETO">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Código do Projeto" NAME="projeto" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="99999" INTERNAL_SEQUENCE="FALSE" DEFAULT="1" TITLE="Item do Projeto" NAME="itemProjeto" />
+		<FIELD TYPE="TEXT" SIZE="255" MASK="@!" TITLE="Nome da Ação" NAME="nomeAcao" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Início Previsto" NAME="inicioPrevisto" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Término Previsto" NAME="terminoPrevisto" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Término Realizado" NAME="terminoRealizado" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Responsável" NAME="nomeSobrenome" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Responsável Substituto" NAME="responsavelSubstituto" />
+		<FIELD TYPE="MEMO" TITLE="Observação" NAME="observacao" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Cadastrado por" NAME="usuarioCadastro" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Data do Cadastro" NAME="dataCadastro" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coordenação" NAME="siglaCoordenacao" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Sigla do Setor" NAME="siglaSetorial" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="999,99" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="% de Execução" NAME="percentualExecutado" />
+		<FIELD TYPE="TEXT" SIZE="15" TITLE="status Acao" NAME="statusAcao" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Início Realizado" NAME="inicioRealizado" />
+		<FIELD TYPE="NUMBER" SIZE="13" MASK="99.999.999.999,99" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Custo da Ação" NAME="custoAcao" />
+		<FIELD TYPE="NUMBER" SIZE="3" MASK="999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="DiasPrevistos" NAME="DiasPrevistos" />
+		<FIELD TYPE="NUMBER" SIZE="3" MASK="999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="DiasRealizados" NAME="DiasRealizados" />
+		<FIELD TYPE="TEXT" SIZE="20" MASK="@!" DEFAULT="A INICIAR" TITLE="Situação" NAME="situacao" />
+		<INDEX TITLE="PK_TB_ITENS_PROJETO" NAME="PK_TB_ITENS_PROJETO" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="projeto" />
+			<FIELD NAME="itemProjeto" />
+		</INDEX>
+		<RELATION FOREIGNTABLE="TB_PROCESSOS" BASETABLE="TB_ITENS_PROJETO" TYPE="CONSTRAINT" CARDINALITY="1-N" TITLE="Itens do Projeto-Atividades das Ações" NAME="FK_TB_ITENS_PROJETO1">
+			<RELATIONOF FOREIGNFIELD="projeto" BASEFIELD="projeto" NAME="projeto" />
+			<RELATIONOF FOREIGNFIELD="itemProjeto" BASEFIELD="itemProjeto" NAME="itemProjeto" />
+		</RELATION>
+	</TABLE>
+	<TABLE TITLE="Log de atividades no sistema" NAME="TB_LOG">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="TRUE" SEQUENCE="1" TITLE="id" NAME="id" />
+		<FIELD TYPE="DATETIME" MASK="dd/MM/yyyy HH:mm:ss" TITLE="data do Log" NAME="dataLog" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="modulo" NAME="modulo" />
+		<FIELD TYPE="TEXT" SIZE="20" MASK="@!" TITLE="operacao" NAME="operacao" />
+		<FIELD TYPE="MEMO" TITLE="Observação" NAME="observacao" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Cadastrado por" NAME="usuarioCadastro" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coord. Geral" NAME="siglaCoordenacao" />
+		<INDEX TITLE="PK_TB_LOG" NAME="PK_TB_LOG" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="id" />
+		</INDEX>
+	</TABLE>
+	<TABLE TITLE="Grupo de login" NAME="TB_LOGIN_GROUP">
+		<FIELD TYPE="TEXT" SIZE="60" MASK="@!" TITLE="Nome do grupo" NAME="LOGIN_GROUP_NAME" />
+		<FIELD TYPE="BOOLEAN" TITLE="Grupo tipo administração" NAME="LOGIN_GROUP_IS_ADMIN" />
+		<INDEX TITLE="Por nome" NAME="LOGIN_GROUP_PK" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="LOGIN_GROUP_NAME" />
+		</INDEX>
+		<RELATION FOREIGNTABLE="TB_LOGIN_RULE" BASETABLE="TB_LOGIN_GROUP" TYPE="CONSTRAINT" CARDINALITY="1-N" TITLE="Grupo para regra" NAME="TB_LOGIN_GROUP_RULE">
+			<RELATIONOF FOREIGNFIELD="LOGIN_GROUP_NAME" BASEFIELD="LOGIN_GROUP_NAME" NAME="LOGIN_GROUP_NAME" />
+		</RELATION>
+		<RELATION FOREIGNTABLE="TB_LOGIN_USER" BASETABLE="TB_LOGIN_GROUP" TYPE="CONSTRAINT" CARDINALITY="1-N" TITLE="Grupo para usuário" NAME="TB_LOGIN_GROUP_USER">
+			<RELATIONOF FOREIGNFIELD="LOGIN_GROUP_NAME" BASEFIELD="LOGIN_GROUP_NAME" NAME="LOGIN_GROUP_NAME" />
+		</RELATION>
+	</TABLE>
+	<TABLE TITLE="Regras para login" NAME="TB_LOGIN_RULE">
+		<FIELD TYPE="TEXT" SIZE="8" MASK="@!" TITLE="Id do projeto" NAME="LOGIN_RULE_PROJECT" />
+		<FIELD TYPE="TEXT" SIZE="60" MASK="@!" TITLE="Nome do grupo" NAME="LOGIN_GROUP_NAME" />
+		<FIELD TYPE="TEXT" SIZE="100" TITLE="Objeto da regra" NAME="LOGIN_RULE_OBJECT" />
+		<FIELD TYPE="TEXT" SIZE="100" TITLE="Permissões da regra" NAME="LOGIN_RULE_PERMISSIONS" />
+		<INDEX TITLE="Por projeto/grupo/objeto" NAME="LOGIN_RULE_PK" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="LOGIN_RULE_PROJECT" />
+			<FIELD NAME="LOGIN_GROUP_NAME" />
+			<FIELD NAME="LOGIN_RULE_OBJECT" />
+		</INDEX>
+	</TABLE>
+	<TABLE TITLE="Usuário de login" NAME="TB_LOGIN_USER">
+		<FIELD TYPE="TEXT" SIZE="60" MASK="@!" TITLE="Nome do grupo" NAME="LOGIN_GROUP_NAME" />
+		<FIELD TYPE="TEXT" SIZE="40" MASK="@!" TITLE="Login" NAME="LOGIN_USER_LOGIN" />
+		<FIELD TYPE="TEXT" SIZE="40" MASK="@!" TITLE="Senha" NAME="LOGIN_USER_PASSWORD" />
+		<FIELD TYPE="TEXT" SIZE="60" MASK="@!" TITLE="Nome do usuário" NAME="LOGIN_USER_NAME" />
+		<FIELD TYPE="MEMO" MASK="@!" TITLE="Observações" NAME="LOGIN_USER_OBS" />
+		<FIELD TYPE="TEXT" SIZE="60" TITLE="E-mail" NAME="LOGIN_USER_EMAIL" />
+		<FIELD TYPE="TEXT" SIZE="15" MASK="(99) 99999-9999" TITLE="Telefone" NAME="LOGIN_USER_PHONE" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coordenação" NAME="LOGIN_USER_COORDENACAO" />
+		<INDEX TITLE="Por login" NAME="LOGIN_USER_PK" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="LOGIN_USER_LOGIN" />
+		</INDEX>
+	</TABLE>
+	<TABLE TITLE="TB_PARAMETRO" NAME="TB_PARAMETRO">
+		<FIELD TYPE="TEXT" SIZE="40" TITLE="HDEmail" NAME="HDEmail" />
+		<FIELD TYPE="TEXT" SIZE="40" TITLE="HDNome" NAME="HDNome" />
+		<FIELD TYPE="NUMBER" SIZE="6" MASK="999999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="HDPorta" NAME="HDPorta" />
+		<FIELD TYPE="TEXT" SIZE="40" TITLE="HDSMTP" NAME="HDSMTP" />
+		<FIELD TYPE="TEXT" SIZE="40" TITLE="HDSSL" NAME="HDSSL" />
+		<FIELD TYPE="NUMBER" SIZE="3" MASK="999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="HDExpiraSenha" NAME="HDExpiraSenha" />
+		<FIELD TYPE="DATETIME" MASK="dd/MM/yyyy HH:mm" TITLE="HD_Atualizacao" NAME="HD_Atualizacao" />
+	</TABLE>
+	<TABLE TITLE="Projetos e Atividade Gerenciais" NAME="TB_PROCESSOS">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Meta/Diretriz" NAME="projeto" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="99999" INTERNAL_SEQUENCE="FALSE" DEFAULT="1" TITLE="Ação" NAME="itemProjeto" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="99999" INTERNAL_SEQUENCE="FALSE" DEFAULT="1" TITLE="Atividade" NAME="itemProcesso" />
+		<FIELD TYPE="TEXT" SIZE="255" MASK="@!" TITLE="Descrição da Atividade" NAME="nomeProcesso" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Início Previsto" NAME="inicioPrevisto" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Início Realizado" NAME="inicioRealizado" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Término Previsto" NAME="terminoPrevisto" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Término Realizado" NAME="terminoRealizado" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coordenação Geral" NAME="siglaCoordenacao" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coordenação Setorial" NAME="siglaSetorial" />
+		<FIELD TYPE="NUMBER" SIZE="3" MASK="999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Dias Previstos" NAME="DiasPrevistos" />
+		<FIELD TYPE="NUMBER" SIZE="3" MASK="999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Dias Realizados" NAME="DiasRealizados" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Responsável Atividade" NAME="nomeSobrenome" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Responsável Substituto" NAME="responsavelSubstituto" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Data do Cadastro" NAME="dataCadastro" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Cadastrado por" NAME="usuarioCadastro" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="999,99" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="% de Execução" NAME="percentualExecutado" />
+		<FIELD TYPE="TEXT" SIZE="20" MASK="@!" DEFAULT="A INICIAR" TITLE="Situação" NAME="situacao" />
+		<FIELD TYPE="TEXT" SIZE="14" TITLE="situação do Projeto" NAME="situacaoProjeto" />
+		<INDEX TITLE="PK_TB_PROCESSOS" NAME="PK_TB_PROCESSOS" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="projeto" />
+			<FIELD NAME="itemProjeto" />
+			<FIELD NAME="itemProcesso" />
+		</INDEX>
+		<RELATION FOREIGNTABLE="TB_HIST_EXECUCAO_ATIVIDADE" BASETABLE="TB_PROCESSOS" TYPE="CONSTRAINT" CARDINALITY="1-N" TITLE="Atividades das Ações-Histórico de Execução da Atividade" NAME="FK_TB_PROCESSOS">
+			<RELATIONOF FOREIGNFIELD="projeto" BASEFIELD="projeto" NAME="projeto" />
+			<RELATIONOF FOREIGNFIELD="itemProjeto" BASEFIELD="itemProjeto" NAME="itemProjeto" />
+			<RELATIONOF FOREIGNFIELD="itemProcesso" BASEFIELD="itemProcesso" NAME="itemProcesso" />
+		</RELATION>
+	</TABLE>
+	<TABLE TITLE="Diretrizes e Metas" NAME="TB_PROJETO">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="TRUE" SEQUENCE="1" TITLE="Código" NAME="codigo" />
+		<FIELD TYPE="TEXT" SIZE="255" MASK="@!" TITLE="Nome do Projeto" NAME="nomeProjeto" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" TITLE="Diretriz" NAME="Diretriz" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Status do Projeto" NAME="statusProjeto" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Cadastrado por" NAME="usuarioCadastro" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Data do Cadastro" NAME="dataCadastro" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Término Realizado" NAME="terminoRealizado" />
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Dias De Projeto" NAME="DiasDeProjeto" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="999,99" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="% de Execução" NAME="percentualExecutado" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Início Previsto" NAME="inicioPrevisto" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Término Previsto" NAME="terminoPrevisto" />
+		<FIELD TYPE="NUMBER" SIZE="13" MASK="99.999.999.999,99" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Custo do Projeto" NAME="custoProjeto" />
+		<FIELD TYPE="TEXT" SIZE="1" MASK="@!" TITLE="Nível" NAME="nivelProjeto" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Sigla da Diretoria" NAME="siglaDiretoria" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coordenação" NAME="siglaCoordenacao" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Sigla do Setor" NAME="siglaSetorial" />
+		<FIELD TYPE="TEXT" SIZE="20" MASK="@!" DEFAULT="A INICIAR" TITLE="Situação" NAME="situacao" />
+		<FIELD TYPE="NUMBER" SIZE="4" MASK="9999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="anoProjeto" NAME="anoProjeto" />
+		<INDEX TITLE="NK_TB_PROJETO1" NAME="NK_TB_PROJETO1" PRIMARY="False" UNIQUE="True" ISCLUSTER="False" FILLFACTOR="90">
+			<FIELD NAME="nomeProjeto" />
+		</INDEX>
+		<INDEX TITLE="PK_TB_PROJETO" NAME="PK_TB_PROJETO" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="codigo" />
+		</INDEX>
+		<RELATION FOREIGNTABLE="TB_ITENS_PROJETO" BASETABLE="TB_PROJETO" TYPE="CONSTRAINT" CARDINALITY="1-N" TITLE="Cadastro de Projetos-Itens do Projeto" NAME="FK_TB_PROJETO">
+			<RELATIONOF FOREIGNFIELD="projeto" BASEFIELD="codigo" NAME="codigo" />
+		</RELATION>
+	</TABLE>
+	<TABLE TITLE="Cadastro de Pessoas" NAME="TB_RESPONSAVEL">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="TRUE" SEQUENCE="1" TITLE="Código" NAME="codigo" />
+		<FIELD TYPE="TEXT" SIZE="100" MASK="@!" TITLE="Nome do Responsavel" NAME="nomeResponsavel" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Nome Sobrenome" NAME="nomeSobrenome" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Ramal" NAME="ramalResponsavel" />
+		<FIELD TYPE="TEXT" SIZE="15" MASK="(99) 99999-9999" TITLE="Contato Responsavel" NAME="contatoResponsavel" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Sala do Responsável" NAME="salaResponsavel" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Cadastrado por" NAME="usuarioCadastro" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Data do Cadastro" NAME="dataCadastro" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Sigla da Diretoria" NAME="siglaDiretoria" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coordenação" NAME="siglaCoordenacao" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Sigla do Setor" NAME="siglaSetorial" />
+		<INDEX TITLE="NK_TB_RESPONSAVEL1" NAME="NK_TB_RESPONSAVEL1" PRIMARY="False" UNIQUE="False" ISCLUSTER="False" FILLFACTOR="90">
+			<FIELD NAME="nomeResponsavel" />
+		</INDEX>
+		<INDEX TITLE="PK_TB_RESPONSAVEL" NAME="PK_TB_RESPONSAVEL" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="codigo" />
+		</INDEX>
+	</TABLE>
+	<TABLE TITLE="Cadastro de Setoriais" NAME="TB_SETORIAL">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="TRUE" SEQUENCE="1" TITLE="Código" NAME="codigo" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Sigla da Diretoria" NAME="siglaDiretoria" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coordenação" NAME="siglaCoordenacao" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coordenação" NAME="siglaSetorial" />
+		<FIELD TYPE="TEXT" SIZE="100" MASK="@!" TITLE="Nome do Setor" NAME="nomeSetorial" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Cadastrado por" NAME="usuarioCadastro" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Data do Cadastro" NAME="dataCadastro" />
+		<INDEX TITLE="NK_TB_SETORIAL1" NAME="NK_TB_SETORIAL1" PRIMARY="False" UNIQUE="True" ISCLUSTER="False" FILLFACTOR="90">
+			<FIELD NAME="siglaDiretoria" />
+			<FIELD NAME="siglaCoordenacao" />
+			<FIELD NAME="siglaSetorial" />
+		</INDEX>
+		<INDEX TITLE="PK_TB_SETORIAL" NAME="PK_TB_SETORIAL" PRIMARY="True" UNIQUE="True" ISCLUSTER="True" FILLFACTOR="90">
+			<FIELD NAME="codigo" />
+		</INDEX>
+	</TABLE>
+	<TABLE TITLE="VW_PROJETO_ACAO" NAME="VW_PROJETO_ACAO">
+	</TABLE>
+	<TABLE TITLE="VW_PROJETO_GRAFICO" NAME="VW_PROJETO_GRAFICO">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="FALSE" TITLE="Código" NAME="codigo" />
+		<FIELD TYPE="TEXT" SIZE="255" MASK="@!" TITLE="Nome do Projeto" NAME="nomeProjeto" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="999,99" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="% de Execução" NAME="percentualExecutado" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coordenação" NAME="siglaCoordenacao" />
+		<FIELD TYPE="TEXT" SIZE="1" MASK="@!" TITLE="Nível" NAME="nivelProjeto" />
+	</TABLE>
+	<TABLE TITLE="VW_RELATORIO_COMPLETO" NAME="VW_RELATORIO_COMPLETO">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="TRUE" SEQUENCE="1" TITLE="Código" NAME="codigo" />
+		<FIELD TYPE="TEXT" SIZE="255" MASK="@!" TITLE="Nome do Projeto" NAME="nomeProjeto" />
+		<FIELD TYPE="TEXT" SIZE="3" MASK="@!" TITLE="Diretriz" NAME="Diretriz" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Status do Projeto" NAME="statusProjeto" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="999,99" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="% de Execução" NAME="percentualExecutado" />
+		<FIELD TYPE="TEXT" SIZE="1" MASK="@!" TITLE="Nível" NAME="nivelProjeto" />
+		<FIELD TYPE="TEXT" SIZE="10" MASK="@!" TITLE="Coordenação" NAME="siglaCoordenacao" />
+		<FIELD TYPE="TEXT" SIZE="255" MASK="@!" TITLE="Nome da Ação" NAME="nomeAcao" />
+		<FIELD TYPE="TEXT" SIZE="255" MASK="@!" TITLE="Descrição da Atividade" NAME="nomeProcesso" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Início Previsto" NAME="inicioPrevisto" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Início Realizado" NAME="inicioRealizado" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Término Previsto" NAME="terminoPrevisto" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Término Realizado" NAME="terminoRealizado" />
+		<FIELD TYPE="NUMBER" SIZE="3" MASK="999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Dias Previstos" NAME="DiasPrevistos" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Responsável Atividade" NAME="nomeSobrenome" />
+		<FIELD TYPE="TEXT" SIZE="20" MASK="@!" DEFAULT="A INICIAR" TITLE="Situação" NAME="situacao" />
+	</TABLE>
+	<TABLE TITLE="Relação de Execuções" NAME="VW_HISTORICO_ATIVIDADE">
+		<FIELD TYPE="NUMBER" SIZE="10" MASK="9999999999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Meta/Diretriz" NAME="projeto" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="99999" INTERNAL_SEQUENCE="FALSE" DEFAULT="1" TITLE="Ação" NAME="itemProjeto" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="99999" INTERNAL_SEQUENCE="FALSE" DEFAULT="1" TITLE="Atividade" NAME="itemProcesso" />
+		<FIELD TYPE="TEXT" SIZE="255" MASK="@!" TITLE="Descrição da Atividade" NAME="nomeProcesso" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Executado em" NAME="dataLancamento" />
+		<FIELD TYPE="NUMBER" SIZE="1" MASK="9" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="Justificativa" NAME="justificativa" />
+		<FIELD TYPE="NUMBER" SIZE="5" MASK="999,99" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="% de Execução" NAME="percentualExecutado" />
+		<FIELD TYPE="MEMO" TITLE="Observação" NAME="observacao" />
+		<FIELD TYPE="TEXT" SIZE="50" MASK="@!" TITLE="Cadastrado por" NAME="usuarioCadastro" />
+		<FIELD TYPE="DATE" MASK="dd/MM/yyyy" TITLE="Data do Cadastro" NAME="dataCadastro" />
+	</TABLE>
+	<TABLE TITLE="TBV_ANO" NAME="TBV_ANO">
+		<FIELD TYPE="NUMBER" SIZE="4" MASK="9999" INTERNAL_SEQUENCE="FALSE" DEFAULT="0" TITLE="ano" NAME="ano" />
+	</TABLE>
+	<TABLE TITLE="TBV_STATUS_ACAO" NAME="TBV_STATUS_ACAO">
+		<FIELD TYPE="TEXT" SIZE="10" TITLE="acao" NAME="acao" />
+	</TABLE>
+</DATABASE>
+</GERPROJETO>

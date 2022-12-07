@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Pages>
+	<Page Name="TB_HIST_EXECUCAO_ATIVIDADE_Repeater.aspx" Title="Relação de Execução da Atividade" />
+	<Page Name="HistoricodeExecucaodaAtividade.aspx" Title="Histórico de Execução da Atividade" />
+	<Page Name="CadastroAtividades.aspx" Title="Cadastro de Atividades das Ações" />
+	<Page Name="ProjetosAtividades.aspx" Title="Projetos e Atividades Gerenciais" />
+	<Page Name="RelacaoAcaoProjeto.aspx" Title="Relação de Ações" />
+	<Page Name="RelacaodoCadastrodeAcoes.aspx" Title="Relação do Cadastro de Ações" />
+	<Page Name="TB_ITENS_PROJETO.aspx" Title="Cadastro de Metas / Ações" />
+	<Page Name="CadastroDiretriz.aspx" Title="Cadastro de Diretriz" />
+	<Page Name="Relacao_de_Diretriz.aspx" Title="Relação de Diretriz" />
+	<Page Name="TB_RESPONSAVEL.aspx" Title="Cadastro de Pessoas" />
+	<Page Name="Lista_dos_Responsaveis.aspx" Title="Lista dos Responsáveis" />
+	<Page Name="CadastroCoordenacoesSetoriais.aspx" Title="Cadastro de Setoriais" />
+	<Page Name="ListaCoordenacoesSetoriais.aspx" Title="Lista de Coordenção ou Setorial" />
+	<Page Name="CadastroCoordenacoesGerais.aspx" Title="Cadastro de Coordenações" />
+	<Page Name="Coordenacao_Geral.aspx" Title="Coordenação Geral" />
+	<Page Name="CadastroDiretorias.aspx" Title="Cadastro das diretorias" />
+	<Page Name="Lista_das_Diretorias.aspx" Title="Lista das Diretorias" />
+	<Page Name="Home.aspx" Title="Gerenciamento de Atividades" />
+	<Page Name="CadastrarUsuario.aspx" Title="Cadastrar Usuário" />
+	<Page Name="EditarUsuario.aspx" Title="Editar Usuário" />
+	<Page Name="PesquisarUsuario.aspx" Title="Pesquisar Usuario" />
+	<Page Name="RecuperaSenha.aspx" Title="Recuperar Senha" />
+	<Page Name="RelatorioMetas.aspx" Title="Relatório de Diretrizes e Metas" />
+</Pages>

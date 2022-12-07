@@ -1,0 +1,2345 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GerProjeto - Gerenciamento de Atividades</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+
+<div class="properties">
+		<h2>Bancos de Dados</h2>
+		  <h3 style="margin-bottom:0px">Banco: <span>DBGERPROJETO</span></h3>
+		  <span style="margin-left :50px">Descrição:</span>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>TB_CAD_PREVIO</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_GROUP_NAME</td>
+						<td>Nome do grupo</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_NAME</td>
+						<td>Nome do usuário</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_LOGIN</td>
+						<td>Login</td>
+						<td>varchar</td>
+						<td>40</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_EMAIL</td>
+						<td>LOGIN_USER_EMAIL</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_PHONE</td>
+						<td>LOGIN_USER_PHONE</td>
+						<td>varchar</td>
+						<td>15</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>(99) 99999-9999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_OBS</td>
+						<td>Observações</td>
+						<td>text</td>
+						<td>0</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_CAD_PREVIO</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Login</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Cadastro de Coordenações</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td>Número sequencial gerado pelo sistema com incremento de 1.</td>
+						<td>codigo</td>
+						<td>Código</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a Diretoria.</td>
+						<td>siglaDiretoria</td>
+						<td>Sigla da Diretoria</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a coordenação.</td>
+						<td>siglaCoordenacao</td>
+						<td>Coord. Geral</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Nome por extenso da Coordenação.</td>
+						<td>nomeCoordenacao</td>
+						<td>Nome da Coordenacao</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Nome do coordenador responsável pela Coordenação Geral.</td>
+						<td>nomeCoordenador</td>
+						<td>Nome do Coordenador</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Usuário que realizou o cadastramento do registro.</td>
+						<td>usuarioCadastro</td>
+						<td>Cadastrado por</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Data de inclusão do registro no sistema.</td>
+						<td>dataCadastro</td>
+						<td>Data do Cadastro</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>NK_TB_COORDENACAO1</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>False</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>False</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Sigla da Diretoria</td></tr>
+							<tr><th>Campo do índice: </th><td>Coord. Geral</td></tr>
+					</table>
+					<br/>
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_COORDENACAO</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Código</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Cadastro das diretorias</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td>Número sequencial gerado pelo sistema com incremento de 1.</td>
+						<td>codigo</td>
+						<td>Código</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a Diretoria.</td>
+						<td>siglaDiretoria</td>
+						<td>Sigla da Diretoria</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Nome da Diretoria por extenso.</td>
+						<td>nomeDiretoria</td>
+						<td>Nome da Diretoria</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Nome do diretor da unidade.</td>
+						<td>nomeDiretor</td>
+						<td>nomeDiretor</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Usuário que realizou o cadastramento do registro.</td>
+						<td>usuarioCadastro</td>
+						<td>Cadastrado por</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Data de inclusão do registro no sistema.</td>
+						<td>dataCadastro</td>
+						<td>Data do Cadastro</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>NK_TB_DIRETORIA1</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>False</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>False</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Sigla da Diretoria</td></tr>
+					</table>
+					<br/>
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_DIRETORIA</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Código</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Histórico de Execução da Atividade</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td>Chave estrangeira relacionada com o código do Projeto</td>
+						<td>projeto</td>
+						<td>Código da Diretriz</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>9999999999</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td>Número do item sequencial do projeto.</td>
+						<td>itemProjeto</td>
+						<td>Código da Ação</td>
+						<td>int</td>
+						<td>5</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>99999</td>
+						<td>1</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>itemProcesso</td>
+						<td>Código da Atividade</td>
+						<td>int</td>
+						<td>5</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>99999</td>
+						<td>1</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>dataLancamento</td>
+						<td>Executado em</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>A justificativa vai permitir verificar que tipo de lançamento está sendo feito, sendo que o lançamento normal que é do tipo 1 - é o registro da execução naquela data. o tipo 2 - é a justificativa ou correção do lançamento na mesma data e o de tipo 3 é para anotações de reuniões na mesma data.</td>
+						<td>Justificativa</td>
+						<td>Justificativa</td>
+						<td>smallint</td>
+						<td>1</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>9</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>percentualExecutado</td>
+						<td>% de Execução</td>
+						<td>decimal</td>
+						<td>5</td>
+						<td>2</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999,99</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>observacao</td>
+						<td>Observação</td>
+						<td>text</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Usuário que realizou o cadastramento do registro.</td>
+						<td>usuarioCadastro</td>
+						<td>Cadastrado por</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Data de inclusão do registro no sistema.</td>
+						<td>dataCadastro</td>
+						<td>Data do Cadastro</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_HIST_EXECUCAO_ATIVIDADE</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Código da Diretriz</td></tr>
+							<tr><th>Campo do índice: </th><td>Código da Ação</td></tr>
+							<tr><th>Campo do índice: </th><td>Código da Atividade</td></tr>
+							<tr><th>Campo do índice: </th><td>Executado em</td></tr>
+							<tr><th>Campo do índice: </th><td>Justificativa</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Meta / Ação</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td>Chave estrangeira relacionada com o código do Projeto</td>
+						<td>projeto</td>
+						<td>Código do Projeto</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>9999999999</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td>Número do item sequencial do projeto.</td>
+						<td>itemProjeto</td>
+						<td>Item do Projeto</td>
+						<td>int</td>
+						<td>5</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>99999</td>
+						<td>1</td>
+					<tr>
+					<tr>
+						<td>Nome da ação do projeto.</td>
+						<td>nomeAcao</td>
+						<td>Nome da Ação</td>
+						<td>varchar</td>
+						<td>255</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>inicioPrevisto</td>
+						<td>Início Previsto</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>terminoPrevisto</td>
+						<td>Término Previsto</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>terminoRealizado</td>
+						<td>Término Realizado</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Nome e sobrenome do servidor / colaborador.</td>
+						<td>nomeSobrenome</td>
+						<td>Responsável</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Substituto para responder pela ação.</td>
+						<td>responsavelSubstituto</td>
+						<td>Responsável Substituto</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>observacao</td>
+						<td>Observação</td>
+						<td>text</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Usuário que realizou o cadastramento do registro.</td>
+						<td>usuarioCadastro</td>
+						<td>Cadastrado por</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Data de inclusão do registro no sistema.</td>
+						<td>dataCadastro</td>
+						<td>Data do Cadastro</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a coordenação.</td>
+						<td>siglaCoordenacao</td>
+						<td>Coordenação</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica o setor dentro da coordenação.</td>
+						<td>siglaSetorial</td>
+						<td>Sigla do Setor</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>percentualExecutado</td>
+						<td>% de Execução</td>
+						<td>decimal</td>
+						<td>5</td>
+						<td>2</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999,99</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>statusAcao</td>
+						<td>status Acao</td>
+						<td>varchar</td>
+						<td>15</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>inicioRealizado</td>
+						<td>Início Realizado</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>custoAcao</td>
+						<td>Custo da Ação</td>
+						<td>decimal</td>
+						<td>13</td>
+						<td>2</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>99.999.999.999,99</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>DiasPrevistos</td>
+						<td>DiasPrevistos</td>
+						<td>smallint</td>
+						<td>3</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>DiasRealizados</td>
+						<td>DiasRealizados</td>
+						<td>smallint</td>
+						<td>3</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td>atrasado
+concluído
+em dia
+data de início não informada
+</td>
+						<td>situacao</td>
+						<td>Situação</td>
+						<td>varchar</td>
+						<td>20</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td>A INICIAR</td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_ITENS_PROJETO</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Código do Projeto</td></tr>
+							<tr><th>Campo do índice: </th><td>Item do Projeto</td></tr>
+					</table>
+					<br/>
+				<h3 style="margin-left:50px; margin-bottom:0px">Campos Relacionados</h3>
+						<table style="margin-left:70px">
+						<tr><th>Relacionamento: </th><td>Itens do Projeto-Atividades das Ações</td></tr>			
+							<tr><th>Cardinalidade: </th><td>1-N</td></tr>
+							<tr><th>Tipo de Relacionamento: </th><td>Constraint</td></tr>
+							<tr><th>Tabela Estrangeira: </th><td>Projetos e Atividade Gerenciais</td></tr>
+							<tr><th>Campo base: </th><td>projeto</td></tr>
+							<tr><th>Campo da tabela estrangeira: </th><td>projeto</td></tr>
+							<tr><th>Campo base: </th><td>itemProjeto</td></tr>
+							<tr><th>Campo da tabela estrangeira: </th><td>itemProjeto</td></tr>
+						</table>
+						<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Log de atividades no sistema</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>id</td>
+						<td>id</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>dataLog</td>
+						<td>data do Log</td>
+						<td>datetime</td>
+						<td>19</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy HH:mm:ss</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>modulo</td>
+						<td>modulo</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>operacao</td>
+						<td>operacao</td>
+						<td>varchar</td>
+						<td>20</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>observacao</td>
+						<td>Observação</td>
+						<td>text</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Usuário que realizou o cadastramento do registro.</td>
+						<td>usuarioCadastro</td>
+						<td>Cadastrado por</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a coordenação.</td>
+						<td>siglaCoordenacao</td>
+						<td>Coord. Geral</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_LOG</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>id</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Grupo de login</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_GROUP_NAME</td>
+						<td>Nome do grupo</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_GROUP_IS_ADMIN</td>
+						<td>Grupo tipo administração</td>
+						<td>bit</td>
+						<td>1</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>Por nome</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Nome do grupo</td></tr>
+					</table>
+					<br/>
+				<h3 style="margin-left:50px; margin-bottom:0px">Campos Relacionados</h3>
+						<table style="margin-left:70px">
+						<tr><th>Relacionamento: </th><td>Grupo para regra</td></tr>			
+							<tr><th>Cardinalidade: </th><td>1-N</td></tr>
+							<tr><th>Tipo de Relacionamento: </th><td>Constraint</td></tr>
+							<tr><th>Tabela Estrangeira: </th><td>Regras para login</td></tr>
+							<tr><th>Campo base: </th><td>LOGIN_GROUP_NAME</td></tr>
+							<tr><th>Campo da tabela estrangeira: </th><td>LOGIN_GROUP_NAME</td></tr>
+						</table>
+						<br/>
+						<table style="margin-left:70px">
+						<tr><th>Relacionamento: </th><td>Grupo para usuário</td></tr>			
+							<tr><th>Cardinalidade: </th><td>1-N</td></tr>
+							<tr><th>Tipo de Relacionamento: </th><td>Constraint</td></tr>
+							<tr><th>Tabela Estrangeira: </th><td>Usuário de login</td></tr>
+							<tr><th>Campo base: </th><td>LOGIN_GROUP_NAME</td></tr>
+							<tr><th>Campo da tabela estrangeira: </th><td>LOGIN_GROUP_NAME</td></tr>
+						</table>
+						<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Regras para login</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_RULE_PROJECT</td>
+						<td>Id do projeto</td>
+						<td>varchar</td>
+						<td>8</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_GROUP_NAME</td>
+						<td>Nome do grupo</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_RULE_OBJECT</td>
+						<td>Objeto da regra</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_RULE_PERMISSIONS</td>
+						<td>Permissões da regra</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>Por projeto/grupo/objeto</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Id do projeto</td></tr>
+							<tr><th>Campo do índice: </th><td>Nome do grupo</td></tr>
+							<tr><th>Campo do índice: </th><td>Objeto da regra</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Usuário de login</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_GROUP_NAME</td>
+						<td>Nome do grupo</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_LOGIN</td>
+						<td>Login</td>
+						<td>varchar</td>
+						<td>40</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_PASSWORD</td>
+						<td>Senha</td>
+						<td>varchar</td>
+						<td>40</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_NAME</td>
+						<td>Nome do usuário</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_OBS</td>
+						<td>Observações</td>
+						<td>text</td>
+						<td>0</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_EMAIL</td>
+						<td>E-mail</td>
+						<td>varchar</td>
+						<td>60</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_PHONE</td>
+						<td>Telefone</td>
+						<td>varchar</td>
+						<td>15</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>(99) 99999-9999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>LOGIN_USER_COORDENACAO</td>
+						<td>Coordenação</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>Por login</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Login</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>TB_PARAMETRO</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td>Esse campo armazena o e-mail do suporte/remetente do sistema, serve apenas para dar mensagem de retorno.</td>
+						<td>HDEmail</td>
+						<td>HDEmail</td>
+						<td>varchar</td>
+						<td>40</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Esse campo armazena o nome do suporte/remetente do sistema, serve apenas para dar mensagem de retorno.</td>
+						<td>HDNome</td>
+						<td>HDNome</td>
+						<td>varchar</td>
+						<td>40</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Esse campo armazena o número da porta de envio de e-mails configurada no servidor.</td>
+						<td>HDPorta</td>
+						<td>HDPorta</td>
+						<td>int</td>
+						<td>6</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999999</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td>Esse campo armazena o nome do servidor de SMTP.</td>
+						<td>HDSMTP</td>
+						<td>HDSMTP</td>
+						<td>varchar</td>
+						<td>40</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Esse campo armazena v/f de acordo com o requisito de segurança do servidor de e-mail.</td>
+						<td>HDSSL</td>
+						<td>HDSSL</td>
+						<td>varchar</td>
+						<td>40</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Esse campo armazena o número de dias que uma senha deverá se expirar, configuração do sistema.</td>
+						<td>HDExpiraSenha</td>
+						<td>HDExpiraSenha</td>
+						<td>smallint</td>
+						<td>3</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td>Esse campo armazena a data em que o banco de dados foi atualizado pela última vez. No momento não será utilizado pois, não importamos dados de nenhum outro sistema ou banco.</td>
+						<td>HD_Atualizacao</td>
+						<td>HD_Atualizacao</td>
+						<td>datetime</td>
+						<td>16</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy HH:mm</td>
+						<td></td>
+					<tr>
+				</table>
+			
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Projetos e Atividade Gerenciais</span></h3>
+			  <span style="margin-left :60px">Descrição:Tabela responsável pelo acompanhamento das ações para atingimento dos objetivos estratégicos e táticos.</span>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td>Chave estrangeira relacionada com o código do Projeto</td>
+						<td>projeto</td>
+						<td>Meta/Diretriz</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>9999999999</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td>Número do item sequencial do projeto.</td>
+						<td>itemProjeto</td>
+						<td>Ação</td>
+						<td>int</td>
+						<td>5</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>99999</td>
+						<td>1</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>itemProcesso</td>
+						<td>Atividade</td>
+						<td>int</td>
+						<td>5</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>99999</td>
+						<td>1</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>nomeProcesso</td>
+						<td>Descrição da Atividade</td>
+						<td>varchar</td>
+						<td>255</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>inicioPrevisto</td>
+						<td>Início Previsto</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>inicioRealizado</td>
+						<td>Início Realizado</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>terminoPrevisto</td>
+						<td>Término Previsto</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>terminoRealizado</td>
+						<td>Término Realizado</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a coordenação.</td>
+						<td>siglaCoordenacao</td>
+						<td>Coordenação Geral</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica o setor dentro da coordenação.</td>
+						<td>siglaSetorial</td>
+						<td>Coordenação Setorial</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>DiasPrevistos</td>
+						<td>Dias Previstos</td>
+						<td>smallint</td>
+						<td>3</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>DiasRealizados</td>
+						<td>Dias Realizados</td>
+						<td>smallint</td>
+						<td>3</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td>Nome e sobrenome do servidor / colaborador.</td>
+						<td>nomeSobrenome</td>
+						<td>Responsável Atividade</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Substituto para responder pela ação.</td>
+						<td>responsavelSubstituto</td>
+						<td>Responsável Substituto</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Data de inclusão do registro no sistema.</td>
+						<td>dataCadastro</td>
+						<td>Data do Cadastro</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Usuário que realizou o cadastramento do registro.</td>
+						<td>usuarioCadastro</td>
+						<td>Cadastrado por</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>percentualExecutado</td>
+						<td>% de Execução</td>
+						<td>decimal</td>
+						<td>5</td>
+						<td>2</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999,99</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td>atrasado
+concluído
+em dia
+data de início não informada
+</td>
+						<td>situacao</td>
+						<td>Situação</td>
+						<td>varchar</td>
+						<td>20</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td>A INICIAR</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>situacaoProjeto</td>
+						<td>situação do Projeto</td>
+						<td>varchar</td>
+						<td>14</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td></td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_PROCESSOS</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Meta/Diretriz</td></tr>
+							<tr><th>Campo do índice: </th><td>Ação</td></tr>
+							<tr><th>Campo do índice: </th><td>Atividade</td></tr>
+					</table>
+					<br/>
+				<h3 style="margin-left:50px; margin-bottom:0px">Campos Relacionados</h3>
+						<table style="margin-left:70px">
+						<tr><th>Relacionamento: </th><td>Atividades das Ações-Histórico de Execução da Atividade</td></tr>			
+							<tr><th>Cardinalidade: </th><td>1-N</td></tr>
+							<tr><th>Tipo de Relacionamento: </th><td>Constraint</td></tr>
+							<tr><th>Tabela Estrangeira: </th><td>Histórico de Execução da Atividade</td></tr>
+							<tr><th>Campo base: </th><td>projeto</td></tr>
+							<tr><th>Campo da tabela estrangeira: </th><td>projeto</td></tr>
+							<tr><th>Campo base: </th><td>itemProjeto</td></tr>
+							<tr><th>Campo da tabela estrangeira: </th><td>itemProjeto</td></tr>
+							<tr><th>Campo base: </th><td>itemProcesso</td></tr>
+							<tr><th>Campo da tabela estrangeira: </th><td>itemProcesso</td></tr>
+						</table>
+						<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Diretrizes e Metas</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td>Número sequencial gerado pelo sistema com incremento de 1.</td>
+						<td>codigo</td>
+						<td>Código</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Nome de identificação do projeto.</td>
+						<td>nomeProjeto</td>
+						<td>Nome do Projeto</td>
+						<td>varchar</td>
+						<td>255</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>Diretriz</td>
+						<td>Diretriz</td>
+						<td>varchar</td>
+						<td>3</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>ATIVO
+SUSPENSO</td>
+						<td>statusProjeto</td>
+						<td>Status do Projeto</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Usuário que realizou o cadastramento do registro.</td>
+						<td>usuarioCadastro</td>
+						<td>Cadastrado por</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Data de inclusão do registro no sistema.</td>
+						<td>dataCadastro</td>
+						<td>Data do Cadastro</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>terminoRealizado</td>
+						<td>Término Realizado</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>DiasDeProjeto</td>
+						<td>Dias De Projeto</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>9999999999</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>percentualExecutado</td>
+						<td>% de Execução</td>
+						<td>decimal</td>
+						<td>5</td>
+						<td>2</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>999,99</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>inicioPrevisto</td>
+						<td>Início Previsto</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>terminoPrevisto</td>
+						<td>Término Previsto</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td></td>
+						<td>custoProjeto</td>
+						<td>Custo do Projeto</td>
+						<td>decimal</td>
+						<td>13</td>
+						<td>2</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>99.999.999.999,99</td>
+						<td>0</td>
+					<tr>
+					<tr>
+						<td>E - Estratégico
+T - Tático
+I - Institucional</td>
+						<td>nivelProjeto</td>
+						<td>Nível</td>
+						<td>varchar</td>
+						<td>1</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a Diretoria.</td>
+						<td>siglaDiretoria</td>
+						<td>Sigla da Diretoria</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a coordenação.</td>
+						<td>siglaCoordenacao</td>
+						<td>Coordenação</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica o setor dentro da coordenação.</td>
+						<td>siglaSetorial</td>
+						<td>Sigla do Setor</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>atrasado
+concluído
+em dia
+data de início não informada
+</td>
+						<td>situacao</td>
+						<td>Situação</td>
+						<td>varchar</td>
+						<td>20</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td>A INICIAR</td>
+					<tr>
+					<tr>
+						<td>Ano do Projeto
+</td>
+						<td>anoProjeto</td>
+						<td>anoProjeto</td>
+						<td>smallint</td>
+						<td>4</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>9999</td>
+						<td>0</td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>NK_TB_PROJETO1</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>False</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>False</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Nome do Projeto</td></tr>
+					</table>
+					<br/>
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_PROJETO</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Código</td></tr>
+					</table>
+					<br/>
+				<h3 style="margin-left:50px; margin-bottom:0px">Campos Relacionados</h3>
+						<table style="margin-left:70px">
+						<tr><th>Relacionamento: </th><td>Cadastro de Projetos-Itens do Projeto</td></tr>			
+							<tr><th>Cardinalidade: </th><td>1-N</td></tr>
+							<tr><th>Tipo de Relacionamento: </th><td>Constraint</td></tr>
+							<tr><th>Tabela Estrangeira: </th><td>Meta / Ação</td></tr>
+							<tr><th>Campo base: </th><td>codigo</td></tr>
+							<tr><th>Campo da tabela estrangeira: </th><td>projeto</td></tr>
+						</table>
+						<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Cadastro de Pessoas</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td>Número sequencial gerado pelo sistema com incremento de 1.</td>
+						<td>codigo</td>
+						<td>Código</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Nome do Servidor / colaborador</td>
+						<td>nomeResponsavel</td>
+						<td>Nome do Responsavel</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Nome e sobrenome do servidor / colaborador.</td>
+						<td>nomeSobrenome</td>
+						<td>Nome Sobrenome</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Ramal do servidor / colaborador</td>
+						<td>ramalResponsavel</td>
+						<td>Ramal</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Telefone do responsável.</td>
+						<td>contatoResponsavel</td>
+						<td>Contato Responsavel</td>
+						<td>varchar</td>
+						<td>15</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>(99) 99999-9999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sala do responsável.</td>
+						<td>salaResponsavel</td>
+						<td>Sala do Responsável</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Usuário que realizou o cadastramento do registro.</td>
+						<td>usuarioCadastro</td>
+						<td>Cadastrado por</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Data de inclusão do registro no sistema.</td>
+						<td>dataCadastro</td>
+						<td>Data do Cadastro</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a Diretoria.</td>
+						<td>siglaDiretoria</td>
+						<td>Sigla da Diretoria</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a coordenação.</td>
+						<td>siglaCoordenacao</td>
+						<td>Coordenação</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica o setor dentro da coordenação.</td>
+						<td>siglaSetorial</td>
+						<td>Sigla do Setor</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>True</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>NK_TB_RESPONSAVEL1</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>False</td></tr>
+						<tr><th>Único: </th><td>False</td></tr>
+						<tr><th>Primário: </th><td>False</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Nome do Responsavel</td></tr>
+					</table>
+					<br/>
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_RESPONSAVEL</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Código</td></tr>
+					</table>
+					<br/>
+			  <h3 style="margin-left:40px; margin-bottom:0px">Tabela: <span>Cadastro de Setoriais</span></h3>
+				<h3 style="margin-left:50px; margin-bottom:0px" >Campo</h3>
+				 <table style="margin-left:70px">
+					<tr>
+						<th>Descrição</th>
+						<th>Apelido</th>
+						<th>Título</th>
+						<th>Tipo</th>
+						<th>Tam. </th>
+						<th>Dec. </th>
+						<th>Permitir Nulo: </th>
+						<th>Sequência: </th>
+						<th>Valor da Sequência: </th>
+						<th>Mascara: </th>
+						<th>Valor Padrão: </th>
+					</tr>
+					<tr>
+						<td>Número sequencial gerado pelo sistema com incremento de 1.</td>
+						<td>codigo</td>
+						<td>Código</td>
+						<td>bigint</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>True</td>
+						<td>1</td>
+						<td>9999999999</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a Diretoria.</td>
+						<td>siglaDiretoria</td>
+						<td>Sigla da Diretoria</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica a coordenação.</td>
+						<td>siglaCoordenacao</td>
+						<td>Coordenação</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Sigla que identifica o setor dentro da coordenação.</td>
+						<td>siglaSetorial</td>
+						<td>Coordenação</td>
+						<td>varchar</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Nome do Setor.</td>
+						<td>nomeSetorial</td>
+						<td>Nome do Setor</td>
+						<td>varchar</td>
+						<td>100</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Usuário que realizou o cadastramento do registro.</td>
+						<td>usuarioCadastro</td>
+						<td>Cadastrado por</td>
+						<td>varchar</td>
+						<td>50</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>@!</td>
+						<td></td>
+					<tr>
+					<tr>
+						<td>Data de inclusão do registro no sistema.</td>
+						<td>dataCadastro</td>
+						<td>Data do Cadastro</td>
+						<td>date</td>
+						<td>10</td>
+						<td>0</td>
+						<td>False</td>
+						<td>False</td>
+						<td>0</td>
+						<td>dd/MM/yyyy</td>
+						<td></td>
+					<tr>
+				</table>
+			
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>NK_TB_SETORIAL1</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>False</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>False</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Sigla da Diretoria</td></tr>
+							<tr><th>Campo do índice: </th><td>Coordenação</td></tr>
+							<tr><th>Campo do índice: </th><td>Coordenação</td></tr>
+					</table>
+					<br/>
+				<h3 style="margin-left:50px; margin-bottom:0px">Indice</h3>
+					<table style="margin-left:70px">
+						<tr><th>Indice: </th><td>PK_TB_SETORIAL</td></tr>		
+						<tr><th>Descrição: </th><td></td></tr>	
+						<tr><th>Clusterizado: </th><td>True</td></tr>
+						<tr><th>Único: </th><td>True</td></tr>
+						<tr><th>Primário: </th><td>True</td></tr>
+						<tr><th>FillFactor: </th><td>90</td></tr>			
+							<tr><th>Campo do índice: </th><td>Código</td></tr>
+					</table>
+					<br/>
+
+					<h3 style="margin-left:40px; margin-bottom:0px">View</h3>
+							<table style="margin-left:60px">
+								<tr><th>Relacionamento: </th><td>Relação de Execuções</td></tr>			
+								<tr><th>Titulo: </th><td>Relação de Execuções</td></tr>
+								<tr><th>Descrição: </th><td></td></tr>
+								<tr><th>Comando: </th><td><ViewConstructor Database="1"><SelectedFields><SelectedField AgregateAlias="" AgregateFunc="" JoinAlias="" FieldID="546095" /><SelectedField AgregateAlias="" AgregateFunc="" JoinAlias="" FieldID="546096" /><SelectedField AgregateAlias="" AgregateFunc="" JoinAlias="" FieldID="546097" /><SelectedField AgregateAlias="" AgregateFunc="" JoinAlias="" FieldID="546098" /><SelectedField AgregateAlias="" AgregateFunc="" JoinAlias="" FieldID="546122" /><SelectedField AgregateAlias="" AgregateFunc="" JoinAlias="" FieldID="546123" /><SelectedField AgregateAlias="" AgregateFunc="" JoinAlias="" FieldID="546125" /><SelectedField AgregateAlias="" AgregateFunc="" JoinAlias="" FieldID="546126" /><SelectedField AgregateAlias="" AgregateFunc="" JoinAlias="" FieldID="546127" /><SelectedField AgregateAlias="" AgregateFunc="" JoinAlias="" FieldID="546128" /></SelectedFields><Joins /><OrderBys /><GroupBys /><MaxReg Value="" /><Filters /></ViewConstructor></td></tr>
+							</table>	
+						<br/>
+							<table style="margin-left:60px">
+								<tr><th>Relacionamento: </th><td>VW_PROJETO_ACAO</td></tr>			
+								<tr><th>Titulo: </th><td>VW_PROJETO_ACAO</td></tr>
+								<tr><th>Descrição: </th><td></td></tr>
+								<tr><th>Comando: </th><td><ViewConstructor Database="1">SELECT B.siglaCoordenacao 
+      ,A.diretriz
+      ,A.nomeProjeto 
+	  ,A.nivelProjeto
+   ,B.Projeto
+   ,B.itemProjeto
+   ,B.nomeAcao 
+   ,B.inicioPrevisto
+   ,B.terminoPrevisto 
+   ,B.terminoRealizado
+   ,B.percentualExecutado
+   ,B.statusAcao
+   ,A.statusProjeto 
+   ,B.nomeSobrenome
+   ,B.responsavelSubstituto
+   ,B.observacao
+  FROM TB_PROJETO A
+  INNER JOIN TB_ITENS_PROJETO B ON A.codigo = B.projeto AND A.nivelProjeto = 'E'</ViewConstructor></td></tr>
+							</table>	
+						<br/>
+							<table style="margin-left:60px">
+								<tr><th>Relacionamento: </th><td>VW_PROJETO_GRAFICO</td></tr>			
+								<tr><th>Titulo: </th><td>VW_PROJETO_GRAFICO</td></tr>
+								<tr><th>Descrição: </th><td></td></tr>
+								<tr><th>Comando: </th><td><ViewConstructor Database="1">SELECT A.codigo,A.nomeProjeto,A.siglaCoordenacao, A.nivelProjeto, AVG(B.percentualExecutado) as percentualExecutado
+
+  FROM TB_PROJETO A
+  INNER JOIN TB_ITENS_PROJETO B ON A.codigo = B.projeto
+  --WHERE B.dataConclusao = null
+  GROUP BY A.nomeProjeto,A.codigo,A.siglaCoordenacao,A.nivelProjeto</ViewConstructor></td></tr>
+							</table>	
+						<br/>
+							<table style="margin-left:60px">
+								<tr><th>Relacionamento: </th><td>VW_RELATORIO_COMPLETO</td></tr>			
+								<tr><th>Titulo: </th><td>VW_RELATORIO_COMPLETO</td></tr>
+								<tr><th>Descrição: </th><td></td></tr>
+								<tr><th>Comando: </th><td><ViewConstructor Database="1">SELECT A.[codigo]
+      ,A.[nomeProjeto] as 'Diretriz / Meta'
+      ,A.[Diretriz] as 'É Diretriz?'
+      ,A.[statusProjeto] as Status
+      ,A.[terminoRealizado] as 'Data de Conclusão'
+      ,A.[DiasDeProjeto] as 'Qtde Dias Meta'
+      ,A.[percentualExecutado] as '% Meta'
+      ,A.[inicioPrevisto] as 'Inicio Previsto Meta'
+      ,A.[terminoPrevisto] as 'Término Previsto Meta'
+      ,A.[nivelProjeto] as 'Nível'
+      ,A.[siglaDiretoria] as 'Diretoria'
+      ,A.[siglaCoordenacao] as 'Coordenação Geral'
+      ,A.[situacao] as 'Situação Meta'
+	  ,B.[projeto]
+      ,B.[itemProjeto] as 'Número Ação'
+      ,B.[nomeAcao] as 'Ação'
+      ,B.[inicioPrevisto] as 'Início Previsto Ação'
+      ,B.[terminoPrevisto] as 'Término Previsto Ação'
+      ,B.[inicioRealizado] as 'Início Realizado Ação'
+      ,B.[terminoRealizado]  as 'Término Realizado Ação'
+      ,B.[percentualExecutado] as '% Ação'
+      ,B.[statusAcao] as 'Status Ação'
+      ,B.[DiasPrevistos] as 'Qtde Dias Previsto Ação'
+      ,B.[situacao] as 'Situação Ação'
+	  ,C.[itemProcesso] as 'Número Atividade'
+      ,C.[nomeProcesso] as 'Atividade'
+      ,C.[inicioPrevisto] as 'Início Previsto'
+      ,C.[terminoPrevisto] as 'Término Previsto'
+      ,C.[inicioRealizado] as 'Inicio Realizado'
+      ,C.[terminoRealizado] as 'Término Realizado'
+      ,C.[siglaSetorial] as 'Coordenação Setorial'
+      ,C.[DiasPrevistos] as 'Qtde Dias Previstos'
+      ,C.[DiasRealizados] as 'Qtde Dias Realizados'
+      ,C.[nomeSobrenome] as 'Responsável'
+      ,C.[responsavelSubstituto] as 'Substituto'
+      ,C.[percentualExecutado] as '% Atividade'
+      ,C.[situacao] as 'Situação Atividade'
+  FROM TB_PROJETO A
+  INNER JOIN TB_ITENS_PROJETO B ON A.codigo = B.projeto
+  INNER JOIN TB_PROCESSOS C ON A.CODIGO = C.projeto and B.itemProjeto = C.itemProjeto</ViewConstructor></td></tr>
+							</table>	
+						<br/>
+</div>             
+</body>
+</html>
