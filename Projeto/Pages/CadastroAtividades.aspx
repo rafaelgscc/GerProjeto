@@ -31,7 +31,7 @@
 		<script type="text/javascript" src="../JS/Functions.js"></script>
 		<script src='../JS/Mask.js' type="text/javascript"></script>
 		<script type="text/javascript" src="../JS/RadComboBoxHelper.js"></script>
-		<script type="text/javascript" src="../JS/CadastroAtividades_USER.js?sv=v1.0.11_20221207165301"></script>
+		<script type="text/javascript" src="../JS/CadastroAtividades_USER.js?sv=v1.0.11_20221213104557"></script>
 		<script type="text/javascript" src="../JS/jquery.validationEngine-pt_BR.js"></script>
 		<script type="text/javascript" src="../JS/jquery.validationEngine.js"></script>
 		<script type="text/javascript" src="../JS/validation.js"></script>
@@ -195,22 +195,22 @@
 		{
 			onTextChanged(event);
 		}
-		function RadTextBox1_Validation(field, rules, i, options) {
-			if (!(validateCall(field, "required", options))) {
-				return field.attr('data-validation-message');
-			}
-		}
 		function DatePicker5_Validation(field, rules, i, options) {
 			if (!(validateCall(field, "required", options))) {
 				return field.attr('data-validation-message');
 			}
 		}
-		function RadTextBox2_Validation(field, rules, i, options) {
+		function RadTextBox1_Validation(field, rules, i, options) {
 			if (!(validateCall(field, "required", options))) {
 				return field.attr('data-validation-message');
 			}
 		}
 		function RadTextBox11_Validation(field, rules, i, options) {
+			if (!(validateCall(field, "required", options))) {
+				return field.attr('data-validation-message');
+			}
+		}
+		function RadTextBox2_Validation(field, rules, i, options) {
 			if (!(validateCall(field, "required", options))) {
 				return field.attr('data-validation-message');
 			}
@@ -255,6 +255,12 @@
 					</div>
 					<telerik:RadLabel id="labError" runat="server" CssClass="c_labError" />
 					<div id="Div2" runat="server" AutoExpandToContent="False" AutoExpandToContentMargin="10" class="c_Div2">
+						<telerik:RadComboBox id="CbxSituacaoStatus" runat="server" AllowCustomText="False" AutoPostBack="False"
+							CssClass="c_CbxSituacaoStatus combobox-primary" CollapseAnimation-Duration="300" CollapseAnimation-Type="None" EnableEmbeddedSkins="True"
+							EnableLoadOnDemand="True" EnableVirtualScrolling="True" ExpandAnimation-Duration="300" ExpandAnimation-Type="None" ForeColor="#36485B"
+							LoadingMessage="<%$ Resources: CbxSituacaoStatus %>" MarkFirstMatch="true" MaxHeight="100" OnClientItemsRequested="CheckComboItems"
+							OnClientItemsRequesting="Combo_OnClientItemsRequesting" OnClientKeyPressing="Combo_HandleKeyPress"
+							OnItemsRequested="___CbxSituacaoStatus_OnItemsRequested" RenderMode="Lightweight" TabIndex="23" />
 						<telerik:RadTextBox id="RadTextBox1" runat="server" AutoPostBack="False" CssClass="c_RadTextBox1"
 							data-validation-engine="validate[funcCall[RadTextBox1_Validation]]" data-validation-message="Código do Projeto não pode ser vazio!"
 							enabled="false" EnabledStyle-HorizontalAlign="Right" EnableSingleInputRendering="True" ForeColor="#000000" MaxLength="10"
@@ -354,6 +360,7 @@
 							onkeydown="___RadTextBox12_onkeydown();" ReadOnly="False" RenderMode="Lightweight" TabIndex="22" TextMode="SingleLine"
 							WrapperCssClass="c_RadTextBox12_wrapper" />
 						<telerik:RadLabel id="Label18" runat="server" CssClass="c_Label18" Text="<%$ Resources: Label18 %>" />
+						<telerik:RadLabel id="LblStatusSituacao" runat="server" CssClass="c_LblStatusSituacao" Text="<%$ Resources: LblStatusSituacao %>" />
 					</div>
 					<div id="Div3" runat="server" AutoExpandToContent="False" AutoExpandToContentMargin="10" class="c_Div3">
 						<telerik:RadDatePicker id="DatePicker5" runat="server" Calendar-ClientEvents-OnDateClick="HideDatePickerValidation" CssClass="c_DatePicker5"
@@ -495,6 +502,7 @@
 		function inicioRealizado() { return document.getElementById('txtInicioRealizado').value; }
 		function terminoRealizado() { return document.getElementById('txtTerminoRealizado').value; }
 		function percentualExecutado() { return document.getElementById('RadTextBox12').value; }
+		function situacaoProjeto() { return $find("<%= CbxSituacaoStatus.ClientID %>").get_value(); }
 		function dataCadastro() { return document.getElementById('DatePicker5').value; }
 		function usuarioCadastro() { return document.getElementById('RadTextBox11').value; }
 		function EnableButtons()
@@ -549,6 +557,7 @@
 				$j("#cmbSiglaSetorial").bind("change", InitiateEditAuto);
 				$j("#ComboBox3").bind("change", InitiateEditAuto);
 				$j("#ComboBox4").bind("change", InitiateEditAuto);
+				$j("#CbxSituacaoStatus").bind("change", InitiateEditAuto);
 				$j("#txtInicioPrevisto").bind("change", InitiateEditAuto);
 				$j("#txtInicioPrevisto_dateInput").bind("keydown", InitiateEditAuto);
 				$j("#txtTerminoPrevisto").bind("change", InitiateEditAuto);

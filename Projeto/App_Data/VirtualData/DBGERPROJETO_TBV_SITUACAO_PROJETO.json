@@ -1,1 +1,11 @@
-﻿
+﻿[
+  {
+    "situacao_projeto": "EM ANDAMENTO"
+  },
+  {
+    "situacao_projeto": "SUSPENSO"
+  },
+  {
+    "situacao_projeto": "PARALISADO"
+  }
+]

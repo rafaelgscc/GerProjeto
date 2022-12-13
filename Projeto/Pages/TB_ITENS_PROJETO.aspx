@@ -31,7 +31,7 @@
 		<script type="text/javascript" src="../JS/Functions.js"></script>
 		<script src='../JS/Mask.js' type="text/javascript"></script>
 		<script type="text/javascript" src="../JS/RadComboBoxHelper.js"></script>
-		<script type="text/javascript" src="../JS/TB_ITENS_PROJETO_USER.js?sv=v1.0.11_20221207165303"></script>
+		<script type="text/javascript" src="../JS/TB_ITENS_PROJETO_USER.js?sv=v1.0.11_20221213104558"></script>
 		<script type="text/javascript" src="../JS/jquery.validationEngine-pt_BR.js"></script>
 		<script type="text/javascript" src="../JS/jquery.validationEngine.js"></script>
 		<script type="text/javascript" src="../JS/validation.js"></script>
@@ -329,7 +329,7 @@
 							EnableVirtualScrolling="True" ExpandAnimation-Duration="300" ExpandAnimation-Type="None" ForeColor="#000000"
 							LoadingMessage="<%$ Resources: ComboBox5 %>" MarkFirstMatch="true" MaxHeight="100" OnClientItemsRequested="CheckComboItems"
 							OnClientItemsRequesting="Combo_OnClientItemsRequesting" OnClientKeyPressing="Combo_HandleKeyPress"
-							OnItemsRequested="___ComboBox5_OnItemsRequested" RenderMode="Classic" TabIndex="2" />
+							OnItemsRequested="___ComboBox5_OnItemsRequested" RenderMode="Lightweight" TabIndex="2" />
 						<telerik:RadLabel id="Label23" runat="server" CssClass="c_Label23" Text="<%$ Resources: Label23 %>" />
 						<telerik:RadTextBox id="RadTextBox13" runat="server" AutoPostBack="False" CssClass="c_RadTextBox13" enabled="false"
 							EnabledStyle-HorizontalAlign="Left" EnableSingleInputRendering="True" ForeColor="#000000" MaxLength="20"

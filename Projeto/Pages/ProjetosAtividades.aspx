@@ -30,7 +30,7 @@
 		<script type="text/javascript" src="../JS/Common.js"></script>
 		<script type="text/javascript" src="../JS/Functions.js"></script>
 		<script src='../JS/Mask.js' type="text/javascript"></script>
-		<script type="text/javascript" src="../JS/ProjetosAtividades_USER.js?sv=v1.0.11_20221207165302"></script>
+		<script type="text/javascript" src="../JS/ProjetosAtividades_USER.js?sv=v1.0.11_20221213104627"></script>
 		<script type="text/javascript" src="../JS/jquery.validationEngine-pt_BR.js"></script>
 		<script type="text/javascript" src="../JS/jquery.validationEngine.js"></script>
 		<script type="text/javascript" src="../JS/validation.js"></script>
@@ -231,9 +231,9 @@
 										ItemStyle-CssClass="c_GridColumn7" ItemStyle-HorizontalAlign="Right" ItemStyle-Width="56" MaxLength="5" ReadOnly="False"
 										ShowFilterIcon="True" ShowSortIcon="True" />
 									<telerik:GridBoundColumn UniqueName="GridColumn8" runat="server" AllowFiltering="True" AllowSorting="true" AutoPostBackOnFilter="False"
-										ConvertEmptyStringToNull="False" DataField="nomeProcesso" EnableHeaderContextMenu="True" Exportable="True" FilterControlWidth="238"
-										FilterDelay="2000" ForceExtractValue="Always" HeaderStyle-CssClass="c_GridColumn8" HeaderStyle-Width="273"
-										HeaderText="<%$ Resources: GridColumn8 %>" ItemStyle-CssClass="c_GridColumn8" ItemStyle-Width="266" MaxLength="255" ReadOnly="False"
+										ConvertEmptyStringToNull="False" DataField="nomeProcesso" EnableHeaderContextMenu="True" Exportable="True" FilterControlWidth="148"
+										FilterDelay="2000" ForceExtractValue="Always" HeaderStyle-CssClass="c_GridColumn8" HeaderStyle-Width="183"
+										HeaderText="<%$ Resources: GridColumn8 %>" ItemStyle-CssClass="c_GridColumn8" ItemStyle-Width="176" MaxLength="255" ReadOnly="False"
 										ShowFilterIcon="True" ShowSortIcon="True" />
 									<telerik:GridDateTimeColumn UniqueName="GridColumn9" runat="server" AllowFiltering="True" AllowSorting="true" AutoPostBackOnFilter="False"
 										ConvertEmptyStringToNull="False" DataField="inicioPrevisto" DataFormatString="{0:dd/MM/yyyy}" EditDataFormatString="dd/MM/yyyy"
@@ -243,12 +243,13 @@
 									<telerik:GridDateTimeColumn UniqueName="GridColumn11" runat="server" AllowFiltering="True" AllowSorting="true" AutoPostBackOnFilter="False"
 										ConvertEmptyStringToNull="False" DataField="terminoPrevisto" DataFormatString="{0:dd/MM/yyyy}" EditDataFormatString="dd/MM/yyyy"
 										EnableHeaderContextMenu="True" Exportable="True" FilterDateFormat="dd/MM/yyyy" FilterDelay="2000" ForceExtractValue="Always"
-										HeaderStyle-CssClass="c_GridColumn11" HeaderStyle-Width="93" HeaderText="<%$ Resources: GridColumn11 %>" ItemStyle-CssClass="c_GridColumn11"
-										ItemStyle-Width="86" MaxLength="10" PickerType="DatePicker" ReadOnly="False" ShowFilterIcon="True" ShowSortIcon="True" />
+										HeaderStyle-CssClass="c_GridColumn11" HeaderStyle-Width="103" HeaderText="<%$ Resources: GridColumn11 %>"
+										ItemStyle-CssClass="c_GridColumn11" ItemStyle-Width="96" MaxLength="10" PickerType="DatePicker" ReadOnly="False" ShowFilterIcon="True"
+										ShowSortIcon="True" />
 									<telerik:GridBoundColumn UniqueName="GridColumn14" runat="server" AllowFiltering="True" AllowSorting="true" AutoPostBackOnFilter="False"
-										ConvertEmptyStringToNull="False" DataField="siglaSetorial" EnableHeaderContextMenu="True" Exportable="True" FilterControlWidth="38"
-										FilterDelay="2000" ForceExtractValue="Always" HeaderStyle-CssClass="c_GridColumn14" HeaderStyle-Width="73"
-										HeaderText="<%$ Resources: GridColumn14 %>" ItemStyle-CssClass="c_GridColumn14" ItemStyle-Width="66" MaxLength="10" ReadOnly="False"
+										ConvertEmptyStringToNull="False" DataField="siglaSetorial" EnableHeaderContextMenu="True" Exportable="True" FilterControlWidth="55"
+										FilterDelay="2000" ForceExtractValue="Always" HeaderStyle-CssClass="c_GridColumn14" HeaderStyle-Width="90"
+										HeaderText="<%$ Resources: GridColumn14 %>" ItemStyle-CssClass="c_GridColumn14" ItemStyle-Width="83" MaxLength="10" ReadOnly="False"
 										ShowFilterIcon="True" ShowSortIcon="True" />
 									<telerik:GridBoundColumn UniqueName="GridColumn17" runat="server" AllowFiltering="True" AllowSorting="true" AutoPostBackOnFilter="False"
 										ConvertEmptyStringToNull="False" DataField="nomeSobrenome" EnableHeaderContextMenu="True" Exportable="True" FilterControlWidth="108"
@@ -266,14 +267,19 @@
 										FilterDelay="2000" ForceExtractValue="Always" HeaderStyle-CssClass="c_GridColumn24" HeaderStyle-Width="93"
 										HeaderText="<%$ Resources: GridColumn24 %>" ItemStyle-CssClass="c_GridColumn24" ItemStyle-Width="86" MaxLength="20" ReadOnly="False"
 										ShowFilterIcon="True" ShowSortIcon="True" />
-									<telerik:GridButtonColumn UniqueName="GridColumn22" runat="server" AutoPostBackOnFilter="False" ButtonType="PushButton"
-										CommandName="GridColumn22" EnableHeaderContextMenu="True" Exportable="True" FilterDelay="2000" Groupable="false"
-										HeaderStyle-CssClass="c_GridColumn22" HeaderStyle-Width="43" HeaderText="<%$ Resources: GridColumn22 %>" ItemStyle-CssClass="c_GridColumn22"
-										ItemStyle-Width="36" ShowFilterIcon="True" ShowSortIcon="True" Text="<%$ Resources: GridColumn22_1 %>" />
+									<telerik:GridBoundColumn UniqueName="GrdStatusSituacao" runat="server" AllowFiltering="True" AllowSorting="true"
+										AutoPostBackOnFilter="False" ConvertEmptyStringToNull="False" DataField="situacaoProjeto" EnableHeaderContextMenu="True" Exportable="True"
+										FilterControlWidth="58" FilterDelay="2000" ForceExtractValue="Always" HeaderStyle-CssClass="c_GrdStatusSituacao" HeaderStyle-Width="93"
+										HeaderText="<%$ Resources: GrdStatusSituacao %>" ItemStyle-CssClass="c_GrdStatusSituacao" ItemStyle-Width="86" MaxLength="14"
+										ReadOnly="False" ShowFilterIcon="True" ShowSortIcon="True" />
 									<telerik:GridButtonColumn UniqueName="GridColumn23" runat="server" AutoPostBackOnFilter="False" ButtonType="PushButton"
 										CommandName="GridColumn23" EnableHeaderContextMenu="True" Exportable="True" FilterDelay="2000" Groupable="false"
 										HeaderStyle-CssClass="c_GridColumn23" HeaderStyle-Width="73" HeaderText="<%$ Resources: GridColumn23 %>" ItemStyle-CssClass="c_GridColumn23"
 										ItemStyle-Width="66" ShowFilterIcon="True" ShowSortIcon="True" Text="<%$ Resources: GridColumn23_1 %>" />
+									<telerik:GridButtonColumn UniqueName="GridColumn22" runat="server" AutoPostBackOnFilter="False" ButtonType="PushButton"
+										CommandName="GridColumn22" EnableHeaderContextMenu="True" Exportable="True" FilterDelay="2000" Groupable="false"
+										HeaderStyle-CssClass="c_GridColumn22" HeaderStyle-Width="43" HeaderText="<%$ Resources: GridColumn22 %>" ItemStyle-CssClass="c_GridColumn22"
+										ItemStyle-Width="36" ShowFilterIcon="True" ShowSortIcon="True" Text="<%$ Resources: GridColumn22_1 %>" />
 									<telerik:GridTemplateColumn Exportable="false" AllowFiltering="false"></telerik:GridTemplateColumn>
 								</Columns>
 								<CommandItemSettings ShowAddNewRecordButton="False" ShowRefreshButton="True" AddNewRecordText="" RefreshText="" />

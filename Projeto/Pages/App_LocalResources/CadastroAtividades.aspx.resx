@@ -129,6 +129,9 @@
   <data name="Button1" xml:space="preserve">
     <value>Excluir</value>
   </data>
+  <data name="CbxSituacaoStatus" xml:space="preserve">
+    <value>Carregando...</value>
+  </data>
   <data name="Label1" xml:space="preserve">
     <value>Projeto</value>
   </data>
@@ -188,6 +191,9 @@
   </data>
   <data name="Label18" xml:space="preserve">
     <value>% de Execução</value>
+  </data>
+  <data name="LblStatusSituacao" xml:space="preserve">
+    <value>STATUS</value>
   </data>
   <data name="Label15" xml:space="preserve">
     <value>Data do Cadastro</value>

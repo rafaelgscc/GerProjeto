@@ -10,8 +10,8 @@
 
 #Form1_body
 {
-	background-color: #FFFFFF;
 	height: 734px;
+	background-color: #FFFFFF;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -958,6 +958,14 @@
 	Padding-right: 0px;
 	text-align: Left;
 	word-wrap: normal;
+}
+
+.c_GrdStatusSituacao
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
 }
 /*		Hover style		*/
 

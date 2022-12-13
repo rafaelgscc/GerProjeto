@@ -32,7 +32,7 @@
 		<script type="text/javascript" src="../JS/Functions.js"></script>
 
 		<script src='../JS/Mask.js' type="text/javascript"></script>
-			<script type="text/javascript" src="../JS/Default_USER.js?sv=v1.0.11_20221207165305"></script>
+			<script type="text/javascript" src="../JS/Default_USER.js?sv=v1.0.11_20221213104559"></script>
 		<script type="text/javascript">
 			function OnLoginSucceded()
 			{

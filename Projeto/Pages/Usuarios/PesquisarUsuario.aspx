@@ -30,7 +30,7 @@
 		<script type="text/javascript" src="../../JS/Functions.js"></script>
 		<script src='../../JS/Mask.js' type="text/javascript"></script>
 		<script type="text/javascript" src="../../JS/RadComboBoxHelper.js"></script>
-		<script type="text/javascript" src="../../JS/PesquisarUsuario_USER.js?sv=v1.0.11_20221207165307"></script>
+		<script type="text/javascript" src="../../JS/PesquisarUsuario_USER.js?sv=v1.0.11_20221213104600"></script>
 
 		<script type="text/javascript">
 			function OnLoginSucceded()
