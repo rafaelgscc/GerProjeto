@@ -1281,6 +1281,10 @@ namespace PROJETO.DataPages
 			{
 				return new DBGERPROJETO_TB_PROCESSOSItem("DBGERPROJETO");
 			}
+			if (Provider.Name == "AtualizaSituacaoAtividades")
+			{
+				return new DBGERPROJETO_TB_PROCESSOSItem("DBGERPROJETO");
+			}
 			return base.GetDataProviderItem(Provider);
 		}
 		

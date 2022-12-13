@@ -10,8 +10,8 @@
 
 #Form1_body
 {
-	height: 734px;
 	background-color: #FFFFFF;
+	height: 734px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -382,7 +382,7 @@
 	border-top-right-radius: 0px;
 }
 
-.c_GridColumn22
+.c_GrdStatusSituacao
 {
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
@@ -391,6 +391,14 @@
 }
 
 .c_GridColumn23
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn22
 {
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
@@ -958,14 +966,6 @@
 	Padding-right: 0px;
 	text-align: Left;
 	word-wrap: normal;
-}
-
-.c_GrdStatusSituacao
-{
-	border-bottom-left-radius: 0px;
-	border-bottom-right-radius: 0px;
-	border-top-left-radius: 0px;
-	border-top-right-radius: 0px;
 }
 /*		Hover style		*/
 

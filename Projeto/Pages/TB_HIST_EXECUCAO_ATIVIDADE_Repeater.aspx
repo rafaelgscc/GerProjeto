@@ -32,7 +32,7 @@
 		<script type="text/javascript" src="../JS/Common.js"></script>
 		<script type="text/javascript" src="../JS/Functions.js"></script>
 		<script src='../JS/Mask.js' type="text/javascript"></script>
-		<script type="text/javascript" src="../JS/TB_HIST_EXECUCAO_ATIVIDADE_Repeater_USER.js?sv=v1.0.11_20221213104557"></script>
+		<script type="text/javascript" src="../JS/TB_HIST_EXECUCAO_ATIVIDADE_Repeater_USER.js?sv=v1.0.12_20221213161345"></script>
 
 		<script type="text/javascript">
 			function OnLoginSucceded()

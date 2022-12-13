@@ -29,7 +29,7 @@
 		<script type="text/javascript" src="../../JS/Common.js"></script>
 		<script type="text/javascript" src="../../JS/Functions.js"></script>
 		<script src='../../JS/Mask.js' type="text/javascript"></script>
-		<script type="text/javascript" src="../../JS/RecuperaSenha_USER.js?sv=v1.0.11_20221213104600"></script>
+		<script type="text/javascript" src="../../JS/RecuperaSenha_USER.js?sv=v1.0.12_20221213161349"></script>
 
 		<script type="text/javascript">
 			function OnLoginSucceded()

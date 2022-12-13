@@ -31,7 +31,7 @@
 		<script type="text/javascript" src="../JS/Functions.js"></script>
 
 		<script src='../JS/Mask.js' type="text/javascript"></script>
-			<script type="text/javascript" src="../JS/AboutPage_USER.js?sv=v1.0.11_20221213104600"></script>
+			<script type="text/javascript" src="../JS/AboutPage_USER.js?sv=v1.0.12_20221213161348"></script>
 		<script type="text/javascript">
 			function OnLoginSucceded()
 			{
@@ -56,7 +56,7 @@
 				<div id="Div1" runat="server" AutoExpandToContent="False" AutoExpandToContentMargin="10" class="c_Div1">
 					<div id="Div4" runat="server" AutoExpandToContent="False" AutoExpandToContentMargin="10" class="c_Div4">
 						<telerik:RadLabel id="labSolutionTitle" runat="server" CssClass="c_labSolutionTitle" Text="GerProjeto" />
-						<telerik:RadLabel id="ProjectVersion" runat="server" CssClass="c_ProjectVersion" Text="v1.0.11" />
+						<telerik:RadLabel id="ProjectVersion" runat="server" CssClass="c_ProjectVersion" Text="v1.0.12" />
 					</div>
 					<asp:Panel id="Panel1" runat="server" BorderStyle="Solid" BorderWidth="1" class="c_Panel1" ScrollBars="Auto">
 						<telerik:RadLabel id="labProjectTitle" runat="server" CssClass="c_labProjectTitle" Text="GerProjeto - Gerenciamento de Atividades" />

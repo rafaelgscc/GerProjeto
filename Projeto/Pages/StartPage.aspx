@@ -32,7 +32,7 @@
 		<script type="text/javascript" src="../JS/Functions.js"></script>
 
 		<script src='../JS/Mask.js' type="text/javascript"></script>
-			<script type="text/javascript" src="../JS/StartPage_USER.js?sv=v1.0.11_20221213104559"></script>
+			<script type="text/javascript" src="../JS/StartPage_USER.js?sv=v1.0.12_20221213161347"></script>
 		<script type="text/javascript">
 			function OnLoginSucceded()
 			{
@@ -101,7 +101,7 @@
 						<telerik:RadLabel id="Label1" runat="server" CssClass="c_Label1" Text="<%$ Resources: Label1 %>" />
 					</div>
 					<div id="Div2" runat="server" AutoExpandToContent="False" AutoExpandToContentMargin="10" class="c_Div2">
-						<telerik:RadLabel id="ProjectVersion" runat="server" CssClass="c_ProjectVersion" Text="v1.0.11" />
+						<telerik:RadLabel id="ProjectVersion" runat="server" CssClass="c_ProjectVersion" Text="v1.0.12" />
 						<telerik:RadLabel id="Label2" runat="server" CssClass="c_Label2" Text="<%$ Resources: Label2 %>" />
 						<telerik:RadLabel id="Label3" runat="server" CssClass="c_Label3" Text="<%$ Resources: Label3 %>" />
 						<telerik:RadLabel id="Label4" runat="server" CssClass="c_Label4" Text="<%$ Resources: Label4 %>" />
