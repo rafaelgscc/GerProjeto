@@ -22,7 +22,7 @@
 		<script type="text/javascript" src="../../JS/Mask.js" ></script>
 		<script type="text/javascript" src="../../JS/Functions.js"></script>
 		<script type="text/javascript" src="../../JS/Common.js"></script>
-	<script type="text/javascript" src="../../JS/AtualizaSituacaoAcao_USER.js?sv=v1.0.11_20221207155647"></script>
+	<script type="text/javascript" src="../../JS/AtualizaSituacaoAcao_USER.js?sv=v1.0.12_20221213161349"></script>
 
 <script type="text/javascript">
 	function OnLoginSucceded()

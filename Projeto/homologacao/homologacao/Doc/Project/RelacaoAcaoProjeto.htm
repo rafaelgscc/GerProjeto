@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Relação de Ações</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Relação de Ações</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td></td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>DBGERPROJETO</td></tr>
+      <tr><th>Tabela Básica: </th><td>TB_PROJETO</td></tr>
+      <tr><th>Provider: </th><td>Relacao_Acao_Projeto</td></tr>
+      <tr><th>Index: </th><td>PK_TB_PROJETO</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>nomeProjeto</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(nomeProjeto))}{ServerValidation =(CheckNotEmpty(nomeProjeto))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Nome do Projeto não pode ser vazio!</td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

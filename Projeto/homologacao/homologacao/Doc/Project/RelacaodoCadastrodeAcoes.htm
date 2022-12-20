@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Relação do Cadastro de Ações</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Relação do Cadastro de Ações</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_PROJETO</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>DBGERPROJETO</td></tr>
+      <tr><th>Tabela Básica: </th><td>TB_PROJETO</td></tr>
+      <tr><th>Provider: </th><td>Relacao_Cadastro_Acoes</td></tr>
+      <tr><th>Index: </th><td>PK_TB_PROJETO</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>nomeProjeto</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(nomeProjeto))}{ServerValidation =(CheckNotEmpty(nomeProjeto))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Nome do Projeto não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>Diretriz</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(Diretriz))}{ServerValidation =(CheckNotEmpty(Diretriz))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Diretriz não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>statusProjeto</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(statusProjeto))}{ServerValidation =(CheckNotEmpty(statusProjeto))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Status do Projeto não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>codigo</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>DiasDeProjeto</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>inicioPrevisto</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>terminoPrevisto</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>siglaDiretoria</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(siglaDiretoria))}{ServerValidation =(CheckNotEmpty(siglaDiretoria))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Sigla da Diretoria não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>siglaCoordenacao</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(siglaCoordenacao))}{ServerValidation =(CheckNotEmpty(siglaCoordenacao))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Coordenação não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox5</td></tr>
+      <tr><th>Campo Relacionado: </th><td>situacao</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>percentualExecutado</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

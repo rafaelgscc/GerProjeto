@@ -382,7 +382,7 @@
 	border-top-right-radius: 0px;
 }
 
-.c_GridColumn22
+.c_GrdStatusSituacao
 {
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
@@ -391,6 +391,14 @@
 }
 
 .c_GridColumn23
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_GridColumn22
 {
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;

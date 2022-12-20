@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cadastro de Coordenações</title>
+<link rel="stylesheet" type="text/css" href="../css/StyleDoc.css" />
+</head>
+
+<body>
+<div class="properties">
+    <h2> Título: <span>Cadastro de Coordenações</span></h2>	
+    <table>
+      <tr><th>Nome: </th><td>DataPageModule</td></tr>
+      <tr><th>Descrição</th><td>Página de Dados referente à tabela TB_COORDENACAO</td></tr>				
+      <tr><th>Permite Inclusão: </th><td>True</td></tr>
+      <tr><th>Permite Edição: </th><td>True</td></tr>
+      <tr><th>Permite Deleção: </th><td>True</td></tr>
+      <tr><th>Banco de Dados: </th><td>DBGERPROJETO</td></tr>
+      <tr><th>Tabela Básica: </th><td>TB_COORDENACAO</td></tr>
+      <tr><th>Provider: </th><td>CadastroCoordenacoesGerais</td></tr>
+      <tr><th>Index: </th><td>PK_TB_COORDENACAO</td></tr>
+    </table>
+   
+       <h3>Campos</h3>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>codigo</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox3</td></tr>
+      <tr><th>Campo Relacionado: </th><td>siglaCoordenacao</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(siglaCoordenacao))}{ServerValidation =(CheckNotEmpty(siglaCoordenacao))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Sigla da Coordenacao não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox4</td></tr>
+      <tr><th>Campo Relacionado: </th><td>nomeCoordenacao</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(nomeCoordenacao))}{ServerValidation =(CheckNotEmpty(nomeCoordenacao))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Nome da Coordenacao não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>siglaDiretoria</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(siglaDiretoria))}{ServerValidation =(CheckNotEmpty(siglaDiretoria))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Sigla da Diretoria não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>ComboBox2</td></tr>
+      <tr><th>Campo Relacionado: </th><td>nomeCoordenador</td></tr>
+      <tr><th>Validação: </th><td></td></tr>	
+      <tr><th>Mensagem: </th><td></td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>RadTextBox6</td></tr>
+      <tr><th>Campo Relacionado: </th><td>usuarioCadastro</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(usuarioCadastro))}{ServerValidation =(CheckNotEmpty(usuarioCadastro))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Cadastrado por não pode ser vazio!</td></tr>
+	</table>
+	</br>
+	<table>
+      <tr><th>Nome: </th><td>DatePicker1</td></tr>
+      <tr><th>Campo Relacionado: </th><td>dataCadastro</td></tr>
+      <tr><th>Validação: </th><td>{ClientValidation =(CheckNotEmpty(dataCadastro))}{ServerValidation =(CheckNotEmpty(dataCadastro))}</td></tr>	
+      <tr><th>Mensagem: </th><td>Data do Cadastro não pode ser vazio!</td></tr>
+	</table>
+	</br>
+</div>
+
+</body>
+</html>

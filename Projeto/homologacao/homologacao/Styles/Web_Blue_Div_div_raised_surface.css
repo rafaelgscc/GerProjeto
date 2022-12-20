@@ -1,0 +1,14 @@
+/* Div style: */ 
+
+.div-raised-surface:hover{
+	background-image: linear-gradient(#FFFFFF30,#FFFFFF30) !important;
+}
+
+.div-raised-surface{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	transition: 300ms;
+}
+
+.div-raised-surface:hover{
+    box-shadow: none;
+}

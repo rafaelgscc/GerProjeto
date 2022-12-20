@@ -31,7 +31,7 @@
 		<script type="text/javascript" src="../JS/Common.js"></script>
 		<script type="text/javascript" src="../JS/Functions.js"></script>
 		<script src='../JS/Mask.js' type="text/javascript"></script>
-		<script type="text/javascript" src="../JS/Coordenacao_Geral_USER.js?sv=v1.0.11_20221207155646"></script>
+		<script type="text/javascript" src="../JS/Coordenacao_Geral_USER.js?sv=v1.0.12_20221213161347"></script>
 
 		<script type="text/javascript">
 			function OnLoginSucceded()

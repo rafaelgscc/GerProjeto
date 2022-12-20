@@ -153,17 +153,20 @@
   <data name="GridColumn24" xml:space="preserve">
     <value>Situação</value>
   </data>
-  <data name="GridColumn22" xml:space="preserve">
-    <value>Editar</value>
-  </data>
-  <data name="GridColumn22_1" xml:space="preserve">
-    <value>Editar</value>
+  <data name="GrdStatusSituacao" xml:space="preserve">
+    <value>Status</value>
   </data>
   <data name="GridColumn23" xml:space="preserve">
     <value>Execução</value>
   </data>
   <data name="GridColumn23_1" xml:space="preserve">
     <value>Execução</value>
+  </data>
+  <data name="GridColumn22" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="GridColumn22_1" xml:space="preserve">
+    <value>Editar</value>
   </data>
   <data name="Label1" xml:space="preserve">
     <value>Diretriz</value>

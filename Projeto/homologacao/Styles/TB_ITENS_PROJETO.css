@@ -14,8 +14,8 @@
 
 #Form1_body
 {
-	height: 673px;
 	background-color: #FFFFFF;
+	height: 673px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -980,8 +980,8 @@
 	position: absolute !important;
 	left: 719px;
 	top: 20px;
-	width: 149px;
-	width: 149px !important;
+	width: 151px;
+	width: 151px !important;
 	background-color: #FFFFFF;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;

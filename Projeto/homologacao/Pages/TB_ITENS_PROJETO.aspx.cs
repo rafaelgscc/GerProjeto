@@ -556,7 +556,9 @@ namespace PROJETO.DataPages
 			try
 			{
 				string Val = Item["statusAcao"].GetFormattedValue();
-				SelectComboItem(ComboBox5, PageProvider.ComboBox5Provider, Val);
+				GeneralDataProviderItem item = PageProvider.GetComboItem(PageProvider.ComboBox5Provider, Val);
+				ComboBox5.Text = item["acao"].Value.ToString();
+				ComboBox5.SelectedValue = Val;
 				ComboBox5.Attributes.Add("AllowFilter", "False");
 			}
 			catch

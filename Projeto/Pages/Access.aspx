@@ -135,7 +135,7 @@
 		}
 			currentPath = "<%= Page.Request.Path %>";			
 		</script>
-	<script type="text/javascript" src="../JS/Access_USER.js?sv=v1.0.12_20221213161348"></script>
+	<script type="text/javascript" src="../JS/Access_USER.js?sv=v1.0.12_20221220102703"></script>
 	</telerik:RadCodeBlock>
 		<form id="Form1" runat="server" class="c_Form1">
 			<asp:ScriptManager ID="MainScriptManager" runat="server"/>

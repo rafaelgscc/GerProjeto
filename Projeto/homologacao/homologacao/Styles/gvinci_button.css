@@ -1,0 +1,21 @@
+.gvButtonIconText {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.gvButtonAlignIconLeft {
+    flex-direction: row-reverse;
+}
+
+.gvButtonAlignIconRight {
+    flex-direction: row;
+}
+
+.gvButtonAlignIconTop {
+    flex-direction: column-reverse;
+}
+
+.gvButtonAlignIconBottom {
+    flex-direction: column;
+}
