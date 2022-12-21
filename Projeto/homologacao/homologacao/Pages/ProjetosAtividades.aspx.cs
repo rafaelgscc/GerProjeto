@@ -876,6 +876,7 @@ namespace PROJETO.DataPages
 					Item.SetFieldValue(Item["nomeSobrenome"], PageProvider.TB_ITENS_PROJETO2_Grid2Provider.GridData["nomeSobrenome"]);
 					Item.SetFieldValue(Item["percentualExecutado"], PageProvider.TB_ITENS_PROJETO2_Grid2Provider.GridData["percentualExecutado"]);
 					Item.SetFieldValue(Item["situacao"], PageProvider.TB_ITENS_PROJETO2_Grid2Provider.GridData["situacao"]);
+					Item.SetFieldValue(Item["situacaoProjeto"], PageProvider.TB_ITENS_PROJETO2_Grid2Provider.GridData["situacaoProjeto"]);
 					PageProvider.TB_ITENS_PROJETO2_Grid2Provider.InitializeAlias(Item);
 					if (EnableValidation)
 					{
@@ -927,7 +928,7 @@ namespace PROJETO.DataPages
 				txt.Attributes.Add("isGrid", "true");
 				ApplyMasks(txt);
 				txt = (editableItem.EditManager.GetColumnEditor("GridColumn8") as GridTextBoxColumnEditor).TextBoxControl;
-				txt.Width = 258;
+				txt.Width = 168;
 				Mask.SetMask(txt, "@!", 255, false);
 				txt.Attributes.Add("onblur", "OnMaskBlur();");
 				txt.Attributes.Add("isGrid", "true");
@@ -940,7 +941,7 @@ namespace PROJETO.DataPages
 				dtp.DateInput.Attributes.Add("isGrid", "true");
 				ApplyMasks(dtp.DateInput);
 				dtp = (editableItem.EditManager.GetColumnEditor("GridColumn11") as GridDateTimeColumnEditor).PickerControl;
-				dtp.Width = 78;
+				dtp.Width = 88;
 				dtp.DateInput.Attributes.Add("data-validation-engine", "validate[funcCall[GridColumn11_Validation]]");
 				dtp.DateInput.Attributes.Add("data-validation-message", "Término Previsto não pode ser vazio!");
 				Mask.SetMask(dtp.DateInput, "dd/MM/yyyy", 10, false);
@@ -948,7 +949,7 @@ namespace PROJETO.DataPages
 				dtp.DateInput.Attributes.Add("isGrid", "true");
 				ApplyMasks(dtp.DateInput);
 				txt = (editableItem.EditManager.GetColumnEditor("GridColumn14") as GridTextBoxColumnEditor).TextBoxControl;
-				txt.Width = 58;
+				txt.Width = 75;
 				Mask.SetMask(txt, "@!", 10, false);
 				txt.Attributes.Add("onblur", "OnMaskBlur();");
 				txt.Attributes.Add("isGrid", "true");
@@ -971,6 +972,8 @@ namespace PROJETO.DataPages
 				txt.Attributes.Add("onblur", "OnMaskBlur();");
 				txt.Attributes.Add("isGrid", "true");
 				ApplyMasks(txt);
+				txt = (editableItem.EditManager.GetColumnEditor("GrdStatusSituacao") as GridTextBoxColumnEditor).TextBoxControl;
+				txt.Width = 78;
 				AjaxPanel.ResponseScripts.Add("jQuery(\"#Grid2\").validationEngine();");
 				GridItemCreatedFinished(sender, e);
 			}
@@ -1041,6 +1044,29 @@ namespace PROJETO.DataPages
 		
 				switch (e.CommandName)
 				{
+					case "GridColumn23":
+						bool ActionSucceeded_GridColumn23_1 = true;
+						try
+						{
+							string UrlPage = ResolveUrl("~/Pages/HistoricodeExecucaodaAtividade.aspx?ParamDiretriz={ParamDiretriz}&ParamAcao={ParamAcao}&ParamAtividade={ParamAtividade}");
+							UrlPage = UrlPage.Replace("{ParamDiretriz}", (Convert.ToInt32(Provider.DataProvider.Item["projeto"].GetValue())).ToString());
+							UrlPage = UrlPage.Replace("{ParamAcao}", (Convert.ToInt32(Provider.DataProvider.Item["itemProjeto"].GetValue())).ToString());
+							UrlPage = UrlPage.Replace("{ParamAtividade}", (Convert.ToInt32(Provider.DataProvider.Item["itemProcesso"].GetValue())).ToString());
+							try
+							{
+								AjaxPanel.ResponseScripts.Add("Navigate('" + UrlPage + "', true, null, { Modal: true, Center: true });");
+							}
+							catch(Exception ex)
+							{
+							}
+						}
+						catch (Exception ex)
+						{
+							ActionSucceeded_GridColumn23_1 = false;
+							PageErrors.Add("Error", ex.Message);
+							ShowErrors();
+						}
+					break;
 					case "GridColumn22":
 						bool ActionSucceeded_GridColumn22_1 = true;
 						try
@@ -1061,29 +1087,6 @@ namespace PROJETO.DataPages
 						catch (Exception ex)
 						{
 							ActionSucceeded_GridColumn22_1 = false;
-							PageErrors.Add("Error", ex.Message);
-							ShowErrors();
-						}
-					break;
-					case "GridColumn23":
-						bool ActionSucceeded_GridColumn23_1 = true;
-						try
-						{
-							string UrlPage = ResolveUrl("~/Pages/HistoricodeExecucaodaAtividade.aspx?ParamDiretriz={ParamDiretriz}&ParamAcao={ParamAcao}&ParamAtividade={ParamAtividade}");
-							UrlPage = UrlPage.Replace("{ParamDiretriz}", (Convert.ToInt32(Provider.DataProvider.Item["projeto"].GetValue())).ToString());
-							UrlPage = UrlPage.Replace("{ParamAcao}", (Convert.ToInt32(Provider.DataProvider.Item["itemProjeto"].GetValue())).ToString());
-							UrlPage = UrlPage.Replace("{ParamAtividade}", (Convert.ToInt32(Provider.DataProvider.Item["itemProcesso"].GetValue())).ToString());
-							try
-							{
-								AjaxPanel.ResponseScripts.Add("Navigate('" + UrlPage + "', true, null, { Modal: true, Center: true });");
-							}
-							catch(Exception ex)
-							{
-							}
-						}
-						catch (Exception ex)
-						{
-							ActionSucceeded_GridColumn23_1 = false;
 							PageErrors.Add("Error", ex.Message);
 							ShowErrors();
 						}

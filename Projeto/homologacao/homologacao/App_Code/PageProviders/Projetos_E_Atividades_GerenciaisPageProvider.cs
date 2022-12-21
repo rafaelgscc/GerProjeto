@@ -224,6 +224,7 @@ namespace PROJETO.DataProviders
 		public string nomeSobrenomeField;
 		public double percentualExecutadoField;
 		public string situacaoField;
+		public string situacaoProjetoField;
 		public long projetoField;
 		public int itemProjetoField;
 		public DateTime inicioRealizadoField;
@@ -234,7 +235,6 @@ namespace PROJETO.DataProviders
 		public string responsavelSubstitutoField;
 		public DateTime dataCadastroField;
 		public string usuarioCadastroField;
-		public string situacaoProjetoField;
 
 		#region GeneralGridProvider Members
 
@@ -394,6 +394,15 @@ ParentPageProvider.MainProvider.DataProvider.Dao = MainProvider.DataProvider.Dao
 			{
 				AliasVariables.Add("situacaoField" ,situacaoField);
 			}
+			situacaoProjetoField = Convert.ToString(Item["situacaoProjeto"].GetValue(),CultureInfo.CurrentCulture);
+			if (AliasVariables.ContainsKey("situacaoProjetoField"))
+			{
+				AliasVariables["situacaoProjetoField"] = situacaoProjetoField;
+			}
+			else
+			{
+				AliasVariables.Add("situacaoProjetoField" ,situacaoProjetoField);
+			}
 			projetoField = Convert.ToInt64(Item["projeto"].GetValue(),CultureInfo.CurrentCulture);
 			if (AliasVariables.ContainsKey("projetoField"))
 			{
@@ -483,15 +492,6 @@ ParentPageProvider.MainProvider.DataProvider.Dao = MainProvider.DataProvider.Dao
 			else
 			{
 				AliasVariables.Add("usuarioCadastroField" ,usuarioCadastroField);
-			}
-			situacaoProjetoField = Convert.ToString(Item["situacaoProjeto"].GetValue(),CultureInfo.CurrentCulture);
-			if (AliasVariables.ContainsKey("situacaoProjetoField"))
-			{
-				AliasVariables["situacaoProjetoField"] = situacaoProjetoField;
-			}
-			else
-			{
-				AliasVariables.Add("situacaoProjetoField" ,situacaoProjetoField);
 			}
 			FillAuxiliarTables();
 		}

@@ -50,9 +50,9 @@ namespace PROJETO.DataPages
 		public DateTime ? inicioRealizadoField;
 		public DateTime ? terminoRealizadoField;
 		public double percentualExecutadoField = 0;
+		public string situacaoProjetoField = "";
 		public DateTime ? dataCadastroField;
 		public string usuarioCadastroField = "";
-		public string situacaoProjetoField = "";
 		
 		public override string FormID { get { return "32776"; } }
 		public override string TableName { get { return "TB_PROCESSOS"; } }
@@ -195,6 +195,7 @@ namespace PROJETO.DataPages
 				if (txtTerminoRealizado.SelectedDate != null) Item.SetFieldValue(Item["terminoRealizado"], txtTerminoRealizado.SelectedDate.Value.ToString("dd/MM/yyyy"));
 				else Item.SetFieldValue(Item["terminoRealizado"], DBNull.Value);
 				Item.SetFieldValue(Item["percentualExecutado"], RadTextBox12.Text, false);
+				Item.SetFieldValue(Item["situacaoProjeto"], CbxSituacaoStatus.SelectedValue);
 				if (DatePicker5.SelectedDate != null) Item.SetFieldValue(Item["dataCadastro"], DatePicker5.SelectedDate.Value.ToString("dd/MM/yyyy"));
 				else Item.SetFieldValue(Item["dataCadastro"], DBNull.Value);
 				Item.SetFieldValue(Item["usuarioCadastro"], RadTextBox11.Text, false);
@@ -231,6 +232,7 @@ namespace PROJETO.DataPages
 				if (txtTerminoRealizado.SelectedDate != null) Item.SetFieldValue(Item["terminoRealizado"], txtTerminoRealizado.SelectedDate.Value.ToString("dd/MM/yyyy"));
 				else Item.SetFieldValue(Item["terminoRealizado"], DBNull.Value);
 				Item.SetFieldValue(Item["percentualExecutado"], RadTextBox12.Text, false);
+				Item.SetFieldValue(Item["situacaoProjeto"], CbxSituacaoStatus.SelectedValue);
 				if (DatePicker5.SelectedDate != null) Item.SetFieldValue(Item["dataCadastro"], DatePicker5.SelectedDate.Value.ToString("dd/MM/yyyy"));
 				else Item.SetFieldValue(Item["dataCadastro"], DBNull.Value);
 				Item.SetFieldValue(Item["usuarioCadastro"], RadTextBox11.Text, false);
@@ -280,6 +282,7 @@ namespace PROJETO.DataPages
 			Utility.SetControlTabOnEnter(cmbSiglaSetorial);
 			Utility.SetControlTabOnEnter(ComboBox3);
 			Utility.SetControlTabOnEnter(ComboBox4);
+			Utility.SetControlTabOnEnter(CbxSituacaoStatus);
 		}
 		
 		public override void DisableEnableContros(bool Action)
@@ -292,6 +295,7 @@ namespace PROJETO.DataPages
 			txtTerminoPrevisto.Attributes.Add("EnableEdit", "True");
 			txtInicioRealizado.Attributes.Add("EnableEdit", "True");
 			txtTerminoRealizado.Attributes.Add("EnableEdit", "True");
+			CbxSituacaoStatus.Attributes.Add("EnableEdit", "True");
 		}
 
 		/// <summary>
@@ -315,6 +319,8 @@ namespace PROJETO.DataPages
 				ComboBox4.Text = "";
 				txtSituacao.Text = "";
 				RadTextBox12.Text = "";
+				CbxSituacaoStatus.SelectedIndex = -1;
+				CbxSituacaoStatus.Text = "";
 				RadTextBox11.Text = "";
 			if (ShouldClearFields)
 			{
@@ -415,6 +421,8 @@ namespace PROJETO.DataPages
 			Label17.Text = Label17.Text.Replace(">", "&gt;");
 			Label18.Text = Label18.Text.Replace("<", "&lt;");
 			Label18.Text = Label18.Text.Replace(">", "&gt;");
+			LblStatusSituacao.Text = LblStatusSituacao.Text.Replace("<", "&lt;");
+			LblStatusSituacao.Text = LblStatusSituacao.Text.Replace(">", "&gt;");
 			Label15.Text = Label15.Text.Replace("<", "&lt;");
 			Label15.Text = Label15.Text.Replace(">", "&gt;");
 			Label16.Text = Label16.Text.Replace("<", "&lt;");
@@ -597,6 +605,19 @@ namespace PROJETO.DataPages
 			catch
 			{
 				RadTextBox12.Text = "" ;
+			}
+			try
+			{
+				string Val = Item["situacaoProjeto"].GetFormattedValue();
+				GeneralDataProviderItem item = PageProvider.GetComboItem(PageProvider.CbxSituacaoStatusProvider, Val);
+				CbxSituacaoStatus.Text = item["situacao_projeto"].Value.ToString();
+				CbxSituacaoStatus.SelectedValue = Val;
+				CbxSituacaoStatus.Attributes.Add("AllowFilter", "False");
+			}
+			catch
+			{
+				CbxSituacaoStatus.SelectedValue = "";
+				CbxSituacaoStatus.Text = "";
 			}
 			try { DatePicker5.SelectedDate = Convert.ToDateTime(Item["dataCadastro"].GetFormattedValue("dd/MM/yyyy")); }
 			catch { DatePicker5.SelectedDate = null; }
@@ -842,6 +863,14 @@ namespace PROJETO.DataPages
 			}
 			try
 			{
+				situacaoProjetoField = Item["situacaoProjeto"].GetFormattedValue();
+			}
+			catch
+			{
+				situacaoProjetoField = "";
+			}
+			try
+			{
 				dataCadastroField = Convert.ToDateTime(Item["dataCadastro"].GetFormattedValue("dd/MM/yyyy"));
 			}
 			catch
@@ -863,21 +892,6 @@ namespace PROJETO.DataPages
 			{
 				usuarioCadastroField = "";
 			}
-			try
-			{
-				if (Item != null)
-				{
-					situacaoProjetoField = Item["situacaoProjeto"].GetFormattedValue();
-				}
-				else
-				{
-				situacaoProjetoField = "";
-				}
-			}
-			catch
-			{
-				situacaoProjetoField = "";
-			}
 			PageProvider.AliasVariables.Add("projetoField", projetoField);
 			PageProvider.AliasVariables.Add("itemProjetoField", itemProjetoField);
 			PageProvider.AliasVariables.Add("itemProcessoField", itemProcessoField);
@@ -894,9 +908,9 @@ namespace PROJETO.DataPages
 			PageProvider.AliasVariables.Add("inicioRealizadoField", inicioRealizadoField);
 			PageProvider.AliasVariables.Add("terminoRealizadoField", terminoRealizadoField);
 			PageProvider.AliasVariables.Add("percentualExecutadoField", percentualExecutadoField);
+			PageProvider.AliasVariables.Add("situacaoProjetoField", situacaoProjetoField);
 			PageProvider.AliasVariables.Add("dataCadastroField", dataCadastroField);
 			PageProvider.AliasVariables.Add("usuarioCadastroField", usuarioCadastroField);
-			PageProvider.AliasVariables.Add("situacaoProjetoField", situacaoProjetoField);
 			PageProvider.AliasVariables.Add("ParamProjeto", ParamProjeto);
 			PageProvider.AliasVariables.Add("ParamAcao", ParamAcao);
 			PageProvider.AliasVariables.Add("ParamAtividade", ParamAtividade);
@@ -1415,6 +1429,16 @@ namespace PROJETO.DataPages
 			int ItemsCount = Convert.ToInt32(e.Context["ItemsCount"]);
 			Dictionary<string, object> ClientFields = e.Context["ClientFields"] as Dictionary<string, object>;
 			e.EndOfItems = PageProvider.FillCombo(PageProvider.ComboBox4Provider, sender as RadComboBox, e.NumberOfItems, e.Text, AllowFilter, ClientFields);
+		}
+		
+		protected void ___CbxSituacaoStatus_OnItemsRequested(object sender, RadComboBoxItemsRequestedEventArgs e)
+		{
+			KeyValuePair<string, object> AllowFilterContext = e.Context.FirstOrDefault(c => c.Key == "AllowFilter");
+			bool AllowFilter = false;
+			if (AllowFilterContext.Value != null) AllowFilter = Convert.ToBoolean(AllowFilterContext.Value);
+		
+			int ItemsCount = Convert.ToInt32(e.Context["ItemsCount"]);
+			e.EndOfItems = PageProvider.FillCombo(PageProvider.CbxSituacaoStatusProvider, sender as RadComboBox, e.NumberOfItems, e.Text, AllowFilter);
 		}
 		protected void ___Grid1_GridColumn5_ComboBox_OnItemsRequested(object sender, RadComboBoxItemsRequestedEventArgs e)
 		{

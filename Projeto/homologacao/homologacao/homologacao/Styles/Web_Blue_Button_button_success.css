@@ -1,0 +1,5 @@
+/* Button style: */ 
+
+.button-success:hover{
+	background-image: linear-gradient(#00000030,#00000030) !important;
+}

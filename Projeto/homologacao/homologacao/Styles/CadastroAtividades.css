@@ -993,7 +993,7 @@
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
 	display: block;
-	width: 76px !important;
+	width: 92px !important;
 }
 
 .c_Label18
@@ -1006,6 +1006,47 @@
 	position: absolute !important;
 	left: 496px;
 	top: 114px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_CbxSituacaoStatus
+{
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	position: absolute !important;
+	left: 607px;
+	top: 134px;
+	width: 160px;
+	width: 160px !important;
+	background-color: #FFFFFF;
+	cursor: inherit;
+	display: block;
+}
+
+.c_LblStatusSituacao
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 606px;
+	top: 115px;
 	width: 100px;
 	height: 18px;
 	border-bottom-left-radius: 0px;

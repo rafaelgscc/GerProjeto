@@ -30,7 +30,7 @@
 		<script type="text/javascript" src="../JS/Common.js"></script>
 		<script type="text/javascript" src="../JS/Functions.js"></script>
 		<script src='../JS/Mask.js' type="text/javascript"></script>
-		<script type="text/javascript" src="../JS/ProjetosAtividades_USER.js?sv=v1.0.12_20221213161345"></script>
+		<script type="text/javascript" src="../JS/ProjetosAtividades_USER.js?sv=v1.0.12_20221220102702"></script>
 		<script type="text/javascript" src="../JS/jquery.validationEngine-pt_BR.js"></script>
 		<script type="text/javascript" src="../JS/jquery.validationEngine.js"></script>
 		<script type="text/javascript" src="../JS/validation.js"></script>

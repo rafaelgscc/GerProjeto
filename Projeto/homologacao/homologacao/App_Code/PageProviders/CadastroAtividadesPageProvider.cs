@@ -32,6 +32,7 @@ namespace PROJETO.DataProviders
 		public DBGERPROJETO_TB_SETORIALDataProvider cmbSiglaSetorialProvider;
 		public DBGERPROJETO_TB_RESPONSAVELDataProvider ComboBox3Provider;
 		public DBGERPROJETO_TB_RESPONSAVELDataProvider ComboBox4Provider;
+		public DBGERPROJETO_TBV_SITUACAO_PROJETODataProvider CbxSituacaoStatusProvider;
 
 		public CadastroAtividadesPageProvider(IGeneralDataProvider Provider)
 		{
@@ -51,6 +52,7 @@ namespace PROJETO.DataProviders
 			ComboBox4Provider = new DBGERPROJETO_TB_RESPONSAVELDataProvider(MainProvider, "TB_RESPONSAVEL", "DBGERPROJETO", "", "CadastroAtividades_ComboBox4ProviderAlias");
 			ComboBox4Provider.PageProvider = this;
 			ComboBox4Provider.CreatingParameters += GeneralDataProvider.GeneralCreatingParameters;
+			CbxSituacaoStatusProvider = new DBGERPROJETO_TBV_SITUACAO_PROJETODataProvider(MainProvider, "DBGERPROJETO_TBV_SITUACAO_PROJETO.json", "DBGERPROJETO", "", "CadastroAtividades_CbxSituacaoStatusProviderAlias");
 			CadastroAtividades_Grid1Provider = new CadastroAtividades_Grid1GridDataProvider(this);
 			CadastroAtividades_Grid1Provider.SetRelationFields += new GeneralGridProvider.SetRelationFieldsEventHandler(CadastroAtividades_Grid1Provider_SetRelationFields);
 			CadastroAtividades_Grid1Provider.SetRelationParameters += new GeneralGridProvider.SetRelationParametersEventHandler(CadastroAtividades_Grid1Provider_SetRelationParameters);
@@ -99,6 +101,7 @@ namespace PROJETO.DataProviders
 				CadastroAtividades_Grid1Provider.AliasVariables.Add("siglaSetorialField", MainProvider.DataProvider.Item["siglaSetorial"].Value);
 				CadastroAtividades_Grid1Provider.AliasVariables.Add("nomeSobrenomeField", MainProvider.DataProvider.Item["nomeSobrenome"].Value);
 				CadastroAtividades_Grid1Provider.AliasVariables.Add("responsavelSubstitutoField", MainProvider.DataProvider.Item["responsavelSubstituto"].Value);
+				CadastroAtividades_Grid1Provider.AliasVariables.Add("situacaoProjetoField", MainProvider.DataProvider.Item["situacaoProjeto"].Value);
 				CadastroAtividades_Grid1Provider.AliasVariables.Add("inicioPrevistoField", MainProvider.DataProvider.Item["inicioPrevisto"].Value);
 				CadastroAtividades_Grid1Provider.AliasVariables.Add("terminoPrevistoField", MainProvider.DataProvider.Item["terminoPrevisto"].Value);
 				CadastroAtividades_Grid1Provider.AliasVariables.Add("inicioRealizadoField", MainProvider.DataProvider.Item["inicioRealizado"].Value);
@@ -138,6 +141,10 @@ namespace PROJETO.DataProviders
 			{
 				return new DBGERPROJETO_TB_RESPONSAVELItem(Provider.DataBaseName, "nomeSobrenome");
 			}
+			else if (Provider == CbxSituacaoStatusProvider)
+			{
+				return new DBGERPROJETO_TBV_SITUACAO_PROJETOItem(Provider.DataBaseName, "situacao_projeto");
+			}
 			return null;
 		}
 
@@ -159,6 +166,10 @@ namespace PROJETO.DataProviders
 			{
 				return Item["nomeSobrenome"].GetValue().ToString();
 			}
+			else if (Provider == CbxSituacaoStatusProvider)
+			{
+				return Item["situacao_projeto"].GetValue().ToString();
+			}
 		return "";
 		}
 		
@@ -179,6 +190,10 @@ namespace PROJETO.DataProviders
 			else if (Provider == ComboBox4Provider)
 			{
 				return Item["nomeSobrenome"].GetValue();
+			}
+			else if (Provider == CbxSituacaoStatusProvider)
+			{
+				return Item["situacao_projeto"].GetValue();
 			}
 		return null;
 		}
@@ -281,6 +296,12 @@ namespace PROJETO.DataProviders
 					return Provider.Item;
 				}
 			
+				else if (Provider == CbxSituacaoStatusProvider && !string.IsNullOrEmpty(Value))
+				{
+					Provider.FindRecord(new Dictionary<string, object>() { { "situacao_projeto", Value } });
+					return Provider.Item;
+				}
+			
 			}
 			catch
 			{
@@ -354,6 +375,18 @@ namespace PROJETO.DataProviders
 					int Total;
 					var data = Provider.SelectItems(0, 100, out Total);
 					var dt = Utility.FillComboBoxItems(ComboBox, 100, data, "nomeSobrenome", " nomeSobrenome", false);
+					return Total > 0;
+				}
+				else if (Provider == CbxSituacaoStatusProvider)
+				{
+					if (AllowFilter)
+					{
+						Provider.FiltroAtual = TextFilter;
+						Provider.FilterFields = "situacao_projeto";
+					}
+					int Total;
+					var data = Provider.SelectItems(0, 100, out Total);
+					var dt = Utility.FillComboBoxItems(ComboBox, 100, data, "situacao_projeto", " situacao_projeto", false);
 					return Total > 0;
 				}
 			}

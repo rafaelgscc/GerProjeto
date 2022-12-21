@@ -1,0 +1,916 @@
+
+
+.c_Form1
+{
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 100%;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+#Form1_body
+{
+	background-color: #888888;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	bottom: 0px;
+	left: 0px;
+	margin: 0 auto 0 auto;
+	min-width: 1017px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.c_ajxMainAjaxPanel
+{
+	margin-left: -437px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute !important;
+	left: 50%;
+	top: 0px;
+	bottom: 0px;
+	width: 875px;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #333333;
+	border-style: Solid;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 1px;
+	cursor: inherit;
+	height: 100%;
+}
+
+.c_mnuMainMenu
+{
+	margin-top: 62px;
+	margin-bottom: 2px;
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 95px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	z-index: 2500;
+}
+
+#mnuMainMenu > ul
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#mnuMainMenu > ul > li
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	width: 100%;
+}
+
+.RadMenu .rmRootGroup
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_MenuItem1
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem15
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem16
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem17
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem5
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem18
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem19
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem20
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem21
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem22
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem23
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem24
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem25
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem14
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem26
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_MenuItem27
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_IFrame1
+{
+	background-color: Transparent;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	cursor: inherit;
+	display: block;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+.c_Div1
+{
+	background-color: #006699;
+	margin-right: 0px;
+	margin-top: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	height: 32px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_labProjectTitle
+{
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: Bolder;
+	font-weight: 800;
+	position: absolute !important;
+	left: 10px;
+	top: 4px;
+	width: 634px;
+	height: 25px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #FFFFFF;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_Line1
+{
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute !important;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	height: 1px;
+	background-color: #333333;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_Div2
+{
+	background-color: #E7E7E7;
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute;
+	left: 0px;
+	top: 33px;
+	right: 0px;
+	height: 27px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: #000000;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_tbMain
+{
+	margin-right: 0px;
+	--mleft: 0px;
+	--mright: 0px;
+	position: absolute !important;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+#tbMain .rtbInner > ul > li > a
+{
+	background-position: center;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 18px !important;
+}
+
+#tbMain .rtbWrap, .rtbOuter
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_Button1
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	background-image: url('../Images/AspxModule/Novo.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button1:not(:hover), .c_Button1.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button2
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	background-image: url('../Images/AspxModule/Gravar.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button2:not(:hover), .c_Button2.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button3
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	background-image: url('../Images/AspxModule/Cancelar.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button3:not(:hover), .c_Button3.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button4
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	background-image: url('../Images/AspxModule/Lixo.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button4:not(:hover), .c_Button4.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button5
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	background-image: url('../Images/AspxModule/Primeiro.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button5:not(:hover), .c_Button5.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button6
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	background-image: url('../Images/AspxModule/Anterior.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button6:not(:hover), .c_Button6.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button7
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	background-image: url('../Images/AspxModule/Proximo.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button7:not(:hover), .c_Button7.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button8
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	background-image: url('../Images/AspxModule/Ultimo.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button8:not(:hover), .c_Button8.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button9
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	background-image: url('../Images/AspxModule/Filtrar.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button9:not(:hover), .c_Button9.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button10
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	background-image: url('../Images/AspxModule/Editar.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button10:not(:hover), .c_Button10.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button11
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	background-image: url('../Images/AspxModule/Sair.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	background-size: auto !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button11:not(:hover), .c_Button11.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+/*		Hover style		*/
+
+
+.c_Button1:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button1:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button2:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button2:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button3:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button3:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button4:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button4:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button5:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button5:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button6:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button6:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button7:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button7:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button8:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button8:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button9:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button9:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button10:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button10:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button11:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button11:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}

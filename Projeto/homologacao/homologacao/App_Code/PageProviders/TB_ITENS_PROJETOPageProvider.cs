@@ -30,7 +30,7 @@ namespace PROJETO.DataProviders
 		public DBGERPROJETO_TB_RESPONSAVELDataProvider ComboBox2Provider;
 		public DBGERPROJETO_TB_COORDENACAODataProvider cmbSiglaCoordenacaoProvider;
 		public DBGERPROJETO_TB_SETORIALDataProvider ComboBox4Provider;
-		public DBGERPROJETO_TB_ITENS_PROJETODataProvider ComboBox5Provider;
+		public DBGERPROJETO_TBV_STATUS_ACAODataProvider ComboBox5Provider;
 
 		public TB_ITENS_PROJETOPageProvider(IGeneralDataProvider Provider)
 		{
@@ -49,9 +49,7 @@ namespace PROJETO.DataProviders
 			ComboBox4Provider = new DBGERPROJETO_TB_SETORIALDataProvider(MainProvider, "TB_SETORIAL", "DBGERPROJETO", "", "TB_ITENS_PROJETO_ComboBox4ProviderAlias");
 			ComboBox4Provider.PageProvider = this;
 			ComboBox4Provider.CreatingParameters += GeneralDataProvider.GeneralCreatingParameters;
-			ComboBox5Provider = new DBGERPROJETO_TB_ITENS_PROJETODataProvider(MainProvider, "TB_ITENS_PROJETO", "DBGERPROJETO", "", "TB_ITENS_PROJETO_ComboBox5ProviderAlias");
-			ComboBox5Provider.PageProvider = this;
-			ComboBox5Provider.CreatingParameters += GeneralDataProvider.GeneralCreatingParameters;
+			ComboBox5Provider = new DBGERPROJETO_TBV_STATUS_ACAODataProvider(MainProvider, "DBGERPROJETO_TBV_STATUS_ACAO.json", "DBGERPROJETO", "", "TB_ITENS_PROJETO_ComboBox5ProviderAlias");
 		}
 
 		public override GeneralDataProviderItem GetDataProviderItem(GeneralDataProvider Provider)
@@ -78,7 +76,7 @@ namespace PROJETO.DataProviders
 			}
 			else if (Provider == ComboBox5Provider)
 			{
-				return new DBGERPROJETO_TB_ITENS_PROJETOItem(Provider.DataBaseName, "statusAcao");
+				return new DBGERPROJETO_TBV_STATUS_ACAOItem(Provider.DataBaseName, "acao");
 			}
 			return null;
 		}
@@ -103,7 +101,7 @@ namespace PROJETO.DataProviders
 			}
 			else if (Provider == ComboBox5Provider)
 			{
-				return Item["statusAcao"].GetValue().ToString();
+				return Item["acao"].GetValue().ToString();
 			}
 		return "";
 		}
@@ -128,7 +126,7 @@ namespace PROJETO.DataProviders
 			}
 			else if (Provider == ComboBox5Provider)
 			{
-				return Item["statusAcao"].GetValue();
+				return Item["acao"].GetValue();
 			}
 		return null;
 		}
@@ -237,7 +235,7 @@ namespace PROJETO.DataProviders
 			
 				else if (Provider == ComboBox5Provider && !string.IsNullOrEmpty(Value))
 				{
-					Provider.FindRecord(new Dictionary<string, object>() { { "statusAcao", Value } });
+					Provider.FindRecord(new Dictionary<string, object>() { { "acao", Value } });
 					return Provider.Item;
 				}
 			
@@ -321,11 +319,11 @@ namespace PROJETO.DataProviders
 					if (AllowFilter)
 					{
 						Provider.FiltroAtual = TextFilter;
-						Provider.FilterFields = "statusAcao";
+						Provider.FilterFields = "acao";
 					}
 					int Total;
 					var data = Provider.SelectItems(0, 100, out Total);
-					var dt = Utility.FillComboBoxItems(ComboBox, 100, data, "statusAcao", " statusAcao", false);
+					var dt = Utility.FillComboBoxItems(ComboBox, 100, data, "acao", " acao", false);
 					return Total > 0;
 				}
 			}

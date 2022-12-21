@@ -1,0 +1,1148 @@
+
+
+.c_FormEditarUsuario
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+#FormEditarUsuario_body
+{
+	background-color: #FFFFFF;
+	height: 568px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	font-size: 100%;
+	margin: 0px;
+	overflow: inherit;
+}
+
+.c_MainDiv
+{
+	width: 725px;
+	height: 568px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	left: 0px;
+	margin: 0 0 0 0;
+	position: relative;
+	top: 0px;
+}
+
+.c_MainAjaxPanel
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+}
+
+.c_Div1
+{
+	background-color: #495A70;
+	margin-left: 20px;
+	margin-right: 20px;
+	--mleft: 20px;
+	--mright: 20px;
+	position: absolute;
+	left: 0px;
+	top: 15px;
+	right: 0px;
+	height: 51px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #000000;
+	border-style: Solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_Button1
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	margin-top: -12px;
+	--mright: 10px;
+	position: absolute !important;
+	top: 50%;
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button1:not(:hover), .c_Button1.RadButton.rbButton.rbDisabled
+{
+	background-color: #B32D34;
+	border-color: #FFFFFF;
+	color: #FFFFFF !important;
+	min-width: 25px;
+}
+
+.c_labModuleTitle
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 18px;
+	font-weight: 700;
+	font-weight: 700;
+	margin-top: -16px;
+	--mleft: 20px;
+	position: absolute !important;
+	left: 20px;
+	top: 50%;
+	width: 260px;
+	height: 32px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #FFFFFF;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_gToolbar
+{
+	margin-top: -19px;
+	position: absolute !important;
+	left: 468px;
+	top: 50%;
+	background-color: #F0F0F0;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+#gToolbar .rtbInner > ul > li > a
+{
+	background-position: center;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: 32px !important;
+}
+
+#gToolbar .rtbWrap, .rtbOuter
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.c_Button6
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 32px;
+	height: 32px;
+	background-image: url('../Images/Imagens padrão/First.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button6:not(:hover), .c_Button6.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button7
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 32px;
+	height: 32px;
+	background-image: url('../Images/Imagens padrão/Previous.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button7:not(:hover), .c_Button7.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button8
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 32px;
+	height: 32px;
+	background-image: url('../Images/Imagens padrão/Next.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button8:not(:hover), .c_Button8.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Button9
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	width: 32px;
+	height: 32px;
+	background-image: url('../Images/Imagens padrão/Last.png') !important;
+	background-position: center;
+	background-repeat: no-repeat !Important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-width: 0px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_Button9:not(:hover), .c_Button9.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Div2
+{
+	background-color: Transparent;
+	margin-left: 20px;
+	margin-right: 20px;
+	--mleft: 20px;
+	--mright: 20px;
+	position: absolute;
+	left: 0px;
+	top: 74px;
+	right: 0px;
+	height: 44px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #000000;
+	border-style: Solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+	width: calc(100% - var(--mleft) - var(--mright)) !important;
+}
+
+.c_btnEditar
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 9px;
+	top: 5px;
+	width: 100px;
+	height: 25px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_btnEditar:not(:hover), .c_btnEditar.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_btnSalvar
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 113px;
+	top: 5px;
+	width: 100px;
+	height: 25px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_btnSalvar:not(:hover), .c_btnSalvar.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_btnCancelar
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 217px;
+	top: 5px;
+	width: 100px;
+	height: 25px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_btnCancelar:not(:hover), .c_btnCancelar.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_btnExcluir
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 322px;
+	top: 5px;
+	width: 100px;
+	height: 25px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_btnExcluir:not(:hover), .c_btnExcluir.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_btnPesquisar
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 426px;
+	top: 5px;
+	width: 100px;
+	height: 25px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_btnPesquisar:not(:hover), .c_btnPesquisar.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_btnFiltrar
+{
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	position: absolute !important;
+	left: 531px;
+	top: 5px;
+	width: 100px;
+	height: 25px;
+	background-image: none !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-bottom-left-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-width: 1px !important;
+	cursor: pointer !important;
+	display: block;
+	outline-style: none !important;
+	padding: 0px !important;
+	padding: 0px !important;
+	text-align: Center;
+}
+
+.c_btnFiltrar:not(:hover), .c_btnFiltrar.RadButton.rbButton.rbDisabled
+{
+	background-color: Transparent;
+	border-color: #FFFFFF;
+	color: #000000 !important;
+}
+
+.c_Div3
+{
+	background-color: Transparent;
+	position: absolute;
+	left: 19px;
+	top: 129px;
+	width: 657px;
+	height: 344px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color: #000000;
+	border-style: Solid;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-width: 1px;
+	cursor: inherit;
+	display: block;
+	overflow: inherit;
+}
+
+.c_Label1
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 7px;
+	top: 6px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_RadTextBox2
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox2_wrapper
+{
+	position: absolute !important;
+	left: 120px;
+	top: 41px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 356px !important;
+}
+
+.c_Label2
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 7px;
+	top: 41px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_RadTextBox3
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox3_wrapper
+{
+	position: absolute !important;
+	left: 120px;
+	top: 76px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 356px !important;
+}
+
+.c_Label3
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 7px;
+	top: 76px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_RadTextBox4
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox4_wrapper
+{
+	position: absolute !important;
+	left: 120px;
+	top: 111px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 360px !important;
+}
+
+.c_Label4
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 7px;
+	top: 111px;
+	width: 106px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_RadTextBox5
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox5_wrapper
+{
+	position: absolute !important;
+	left: 120px;
+	top: 146px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 360px !important;
+}
+
+.c_Label5
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 7px;
+	top: 146px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_RadTextBox6
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox6_wrapper
+{
+	position: absolute !important;
+	left: 120px;
+	top: 180px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 157px !important;
+}
+
+.c_Label6
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 7px;
+	top: 180px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_RadTextBox7
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: text;
+	outline-style: none !important;
+}
+
+.c_RadTextBox7_wrapper
+{
+	position: absolute !important;
+	left: 120px;
+	top: 251px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display: block;
+	width: 509px !important;
+}
+
+.c_Label8
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 7px;
+	top: 251px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_ComboBox2
+{
+	position: absolute !important;
+	left: 120px;
+	top: 6px;
+	width: 352px;
+	width: 352px !important;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_ComboBox3
+{
+	position: absolute !important;
+	left: 120px;
+	top: 215px;
+	width: 250px;
+	width: 250px !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+	display: block;
+}
+
+.c_Label9
+{
+	background-color: Transparent;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 700;
+	font-weight: 700;
+	position: absolute !important;
+	left: 7px;
+	top: 215px;
+	width: 100px;
+	height: 18px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #000000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_labError
+{
+	background-color: Transparent;
+	font-family: 'Times New Roman';
+	font-size: 12px;
+	font-weight: Lighter;
+	font-weight: 300;
+	position: absolute !important;
+	left: 15px;
+	top: 483px;
+	width: 666px;
+	height: 25px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-color: Transparent;
+	border-style: None;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	color: #FF0000;
+	cursor: inherit;
+	display: block;
+	Padding-right: 0px;
+	text-align: Left;
+	word-wrap: normal;
+}
+
+.c_WindowSettings1
+{
+	position: absolute !important;
+	left: 192px;
+	top: 17px;
+	width: 120px;
+	height: 48px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	cursor: inherit;
+}
+
+.RadWindow
+{
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+/*		Hover style		*/
+
+
+.c_Button1:hover
+{
+	background-color: #B32D34 !important;
+	border-color: #FFFFFF !important;
+	color: #FFFFFF !important;
+	min-width: 25px;
+}
+
+.c_Button1:hover
+{
+	background-color: #B32D34 !important;
+	border-color: #FFFFFF !important;
+	color: #FFFFFF !important;
+}
+
+.c_Button6:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button6:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button7:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button7:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button8:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button8:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button9:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_Button9:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnEditar:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnEditar:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnSalvar:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnSalvar:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnCancelar:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnCancelar:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnExcluir:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnExcluir:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnPesquisar:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnPesquisar:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnFiltrar:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
+
+.c_btnFiltrar:hover
+{
+	background-color: Transparent !important;
+	border-color: #FFFFFF !important;
+	color: #000000 !important;
+}
